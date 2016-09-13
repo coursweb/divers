@@ -6,3 +6,15 @@ permalink: /divers/git/
 
 Explication concernant le système de versionnement Git.
 
+Documentation:
+===
+
+- *[GitHub Pour les Nuls](http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/)*, par Lauren Orsini, trad. Christophe Ducamp, 2013.
+- *[Gérez vos codes source avec Git](https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git)*, un cours sur OpenClassroooms, par Mathieu Nebra.
+- *[Les bases de Git](https://git-scm.com/book/fr/v1/Les-bases-de-Git)*, dans la documentation officielle.
+
+Logiciels:
+===
+
+- [GitHub Desktop](https://desktop.github.com/), client Git (Mac et Windows) développé par GitHub.
+- [SourceTree](https://www.sourcetreeapp.com/), client Git (Mac et Windows) développé par Atlassian (société proposant le service BitBucket).
