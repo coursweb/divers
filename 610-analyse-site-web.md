@@ -38,6 +38,10 @@ Cet outil teste à la fois les optimisations pour la vitesse, et certains élém
 un outil détaillé pour tester la vitesse de chargement.  
 [https://tools.pingdom.com/](https://tools.pingdom.com/)
 
+- **WebPagetest**:  
+Un autre outil pour tester la vitesse d'un site.  
+[https://www.webpagetest.org/](https://www.webpagetest.org/)
+
 Détecter un CMS utilisé:
 === 
 
