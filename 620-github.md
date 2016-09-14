@@ -13,6 +13,13 @@ Documentation:
 - *[Gérez vos codes source avec Git](https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git)*, un cours sur OpenClassroooms, par Mathieu Nebra.
 - *[Les bases de Git](https://git-scm.com/book/fr/v1/Les-bases-de-Git)*, dans la documentation officielle.
 
+**En anglais:**
+
+*GitHub for the Rest of Us*, par Morten Rand-Hendriksen:  
+
+- [Vidéo de 10 minutes](https://wordpress.tv/2015/12/13/morten-rand-hendriksen-github-for-the-rest-of-us/)
+- [Slides](https://mor10.com/github-wcus/)
+
 Logiciels:
 ===
 
