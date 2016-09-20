@@ -19,11 +19,11 @@ Nicolas Richer: *À quel prix doit-on vendre un site WordPress ?*
 
 - "Contract Killer : The popular open-source contract for web designers and developers by Stuff & Nonsense" - un contrat modèle pour webdesigner:
 [https://gist.github.com/malarkey/4031110](https://gist.github.com/malarkey/4031110)
-- Son podcast "Unfinished Business", avec Anna Debenham:
-[http://www.unfinished.bz/1](http://www.unfinished.bz/1) - Les quatre premiers épisodes contiennent un grand nombre d'excellents conseils sur des aspects financiers du travail de webdesigner indépendant.
 - Un article: *[Contract Killer](https://24ways.org/2008/contract-killer/)* (2008), qui passe en revue son contrat modèle.
 - Un article: *[Monkey Business](https://24ways.org/2012/monkey-business/)* (2012), sur la manière de présenter un devis.
 - Un article: *[The Command Position Principle](https://24ways.org/2013/the-command-position-principle/)*, 2013 - sur l'art de la négociation
+- Son podcast "Unfinished Business", avec Anna Debenham:
+[http://www.unfinished.bz/1](http://www.unfinished.bz/1) - Les quatre premiers épisodes contiennent un grand nombre d'excellents conseils sur des aspects financiers du travail de webdesigner indépendant.
 
 Daniel Mall: *Pricing Design*
 

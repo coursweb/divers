@@ -6,6 +6,8 @@ permalink: /divers/git/
 
 Explication concernant le système de versionnement Git.
 
+![](/cours-web/cours-divers/img/Strip-Bon-daccord-650-final.jpg)
+
 Documentation:
 ===
 
