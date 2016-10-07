@@ -38,10 +38,12 @@ Statistiques & outils d'analyse
 - **[Piwik](https://piwik.org/):** semblable à Google Analytics, mais c'est un logiciel Open Source. Permet de mieux respecter les données privées des utilisateurs.
 - **[Mixpanel](https://mixpanel.com/):** permet d'analyser de manière très précise les actions effectuées par les visiteurs d'un site.
 
+Pour plus d'informations sur ces outils, lire: *[Tools That Help Inform Design Decisions](http://www.leemunroe.com/design-tracking-services/)*, par Lee Munroe (2015).
+
 Clients FTP
 ===
 
-FTP:  Protocole web (File Transfer Protocol) permettant d’envoyer des données vers le serveur.
+FTP:  Protocole web (File Transfer Protocol) permettant d’envoyer des données vers le serveur. À noter qu'on préfèrera utiliser la variante sécurisée, SFTP (crypte les données transmises, et offre une meilleure sécurité sur des réseaux publics).
 
 **[Cyberduck](https://cyberduck.io/):** Excellent gestionnaire FTP, gratuit et open-source, permettant de naviguer sur le serveur distant de son site, créer des signets, éditer des fichiers directement sur le serveur
 
@@ -178,10 +180,11 @@ Mail, contacts, agenda
 ===
 
 Clients email:
+
 - Mail, par Apple
-- Thunderbird
-- Postbox
-- Airmail
+- [Thunderbird](https://www.mozilla.org/fr/thunderbird/)
+- [Airmail](http://airmailapp.com/) - 10$
+- [Postbox](https://www.postbox-inc.com/)
 
 Gestion d'agenda
 
