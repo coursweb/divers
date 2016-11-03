@@ -6,7 +6,26 @@ permalink: /divers/git/
 
 Explication concernant le système de versionnement Git.
 
+**Git** est un logiciel de *gestion de versions* décentralisé, créé en 2005 par Linus Torvalds. C'est un logiciel libre, sous licence GPL. Le site officiel de documentation est [git-scm.com](https://git-scm.com).
+
+GitHub est un service web offrant l'hébergement de projets utilisant Git, lancé en 2008. Devenu extrêmement populaire, GitHub offre de nombreux de communication et la collaboration. 
+
 ![](/cours-divers/img/Strip-Bon-daccord-650-final.jpg)
+
+Guide d'utilisation:
+
+- créer un compte.
+
+- télécharger l'application Github Desktop.
+
+- créer un repository.
+
+- synchroniser ses modifications
+
+- remommer la branche "master" en "gh-pages".
+
+- faire un correctif sur un projet existant.
+
 
 Documentation:
 ===
