@@ -11,8 +11,7 @@ Cet article présente une liste d'outils et logiciels utiles pour le design et l
 Editeurs de code:
 ===
 
-* *[TextWrangler](http://www.barebones.com/products/TextWrangler/ 
-)* - éditeur gratuit 
+* *[TextWrangler](http://www.barebones.com/products/TextWrangler/)* - éditeur gratuit 
 * *[Sublime Text](https://www.sublimetext.com/)* - éditeur gratuit, le plus populaire en ce moment. Il existe [un grand nombre d'extensions](https://packagecontrol.io/) pour étendre ses fonctionalités. 
 * *[Atom](https://atom.io/)* - éditeur gratuit et open source, très similaire à Sublime Text. Il existe également [des extensions](https://atom.io/packages).
 * *[Coda](https://panic.com/coda/)* - éditeur avec des fonctions de prévisualisation. Prix: $99.
@@ -66,23 +65,25 @@ Depuis quelques années, la pertinence des outils de design classiques dans l'en
 
 - Article de Brad Frost: “[The Post-PSD Era](http://bradfrost.com/blog/post/the-post-psd-era/)” (2013) - "Are we entering the Post-PSD Era of web design?" - L'auteur relève des faiblesses de Photoshop pour la réalisation de maquettes web: supports de taille et résolution variable. Eléments interactifs tels que les liens. 
 - Article de Emelyn Baker: “[2014 - The Year of Interaction Design Tools](https://medium.com/@extremelyn/2014-the-year-of-design-tools-3c449d771e62#.542hf0q21)”
-- Khoi Vinh, mai 2015: “The State of Design Tools: An Unscientific Survey” - L'auteur indique: “Prototyping is the Wild West. Every team we met with uses a variety of prototyping tools, whether Pixate, Marvel, InVision, Flinto or others.”
+- Khoi Vinh, mai 2015: “[The State of Design Tools: An Unscientific Survey](https://www.subtraction.com/2015/05/07/the-state-of-design-tools/)” - L'auteur indique: 
+
+> “Prototyping is the Wild West. Every team we met with uses a variety of prototyping tools, whether Pixate, Marvel, InVision, Flinto or others.”
 
 On peut distinguer différentes classes d'outil, répondant à ces modes de travail multiples, et dans une certaine mesure à différentes étapes du processus de création:
 
 - Outils classiques de graphisme (*Photoshop, Illustrator, InDesign, Keynote, Powerpoint*...)
 - Outils de wireframing: *UXPin, Balsamiq, Axure, Proto.io* ...
-- Outils de design d'interface: *Sketch* (anciennement *Fireworks*)
-- Outils de prototypage: *Just in Mind, Axure, Origami, Pixate, Edge Reflow* ...
+- Outils de design d'interface: *Sketch* ...
+- Outils de prototypage: *Just in Mind, Axure, Origami, Pixate* ...
 - Outils d'animation: *After Effects, Principle, Framer* ...
 
-**Outils de Wireframing:**
+#### Outils de Wireframing
 
 *UXPin*, *Balsamiq*, *Axure*, *Proto.io* 
 
 Ces outils servent à produire des "wireframes", càd des représentatons centrées sur la navigation et la répartition de blocs de contenus, sans interférer avec le design graphique. Il est possible de faire cela avec un outil de dessin vectoriel (Illustrator...), mais il existe des outils spécifiquement dédiés. Il est aussi courant de produire des wireframes sur papier.
 
-**Outils de prototypage**
+#### Outils de prototypage
 
 *Axure*, *Just in Mind*, *Pixate*...
 
@@ -90,48 +91,45 @@ Ces outils servent à produire des "wireframes", càd des représentatons centr�
 
 Certains outils proposent d'inclure tout cela dans une application.
 
-Une autre approche consiste à créer les visuels dans des outils de design (Photoshop, Illustrator, Sketch...), puis de définir les interactions et construire à un prototype avec des outils comme InVision ou Marvel (voir ci-dessous).
+Une autre approche consiste à créer les visuels dans un outil de design (Photoshop, Illustrator, Sketch...), puis de définir les interactions et construire un prototype avec des outils comme *InVision* ou *Marvel* (voir ci-dessous).
 
-**Outils de dessin vectoriel orientés design d'interfaces**
+<h4>Outils de dessin vectoriel orientés design d'interfaces</h4>
 
-[Sketch](https://www.sketchapp.com/), publié en 2010 par Bohemian Software, est une application de design d’interface très populaire actuellement. Sketch est développé uniquement pour Mac OSX, par une petite équipe de développement. L'éditeur propose également, une application pour iOS, *Sketch Mirror*, visant à prévisualiser les créations sur iPhone ou iPad. Très populaire dans la profession, l'icône de sketch (un diamant) est venue à symboliser le designer web.
+*Sketch*, publié en 2010 par Bohemian Software, est une application de design d’interface très populaire actuellement. Sketch est développé uniquement pour Mac OSX, par une petite équipe de développement basée aux Pays-Bas. Bohemian Software propose également une application pour iOS, *Sketch Mirror*, visant à prévisualiser les créations sur iPhone ou iPad.
 
-La situation des outils de design d'interface est assez particulière: Adobe a stoppé en 2010 le développement de *Fireworks*, utilisé par de nombreux webdesigners pour la création de visuels. En 2011, Adobe lance la suite de logiciels Edge (*Edge Animate, Edge Inspect, Edge Reflow, Edge Code*), afin de s'adapter aux besoins des webdesigners. La suite Edge est stoppée en 2015, certains développements étant intégrés dans *Dreamweaver* et *Muse*. En 2016, Adobe dévoile un nouveau logiciel: *Adobe Experience Design* (Adobe XD). C'est visiblement une tentative de contrer le succès de Sketch, et l'accueil des designers UX est [plutôt](http://outsmartlabs.com/blog/sketch-v-s-adobe-xd/) [critique](http://scottjensen.design/2016/04/what-i-think-of-adobe-xd/)...
+La situation des outils de design d'interface est assez particulière: Adobe a stoppé en 2010 le développement de *Fireworks*, utilisé par de nombreux webdesigners pour la création de visuels. En 2011, Adobe lance la suite de logiciels Edge (*Edge Animate, Edge Inspect, Edge Reflow, Edge Code*), afin de s'adapter aux besoins des webdesigners (lire à ce sujet l'article de Aaron Shekey, https://www.aaronshekey.com/work/adobe/). La suite Edge est stoppée en 2015, certains développements étant intégrés dans *Dreamweaver* et *Muse*. En 2016, Adobe dévoile un nouveau logiciel: *Adobe Experience Design* (Adobe XD). C'est visiblement une tentative de contrer le succès de Sketch, et l'accueil des designers UX est [plutôt](http://outsmartlabs.com/blog/sketch-v-s-adobe-xd/) [critique](http://scottjensen.design/2016/04/what-i-think-of-adobe-xd/)...
 
-*Affinity Designer* est un outil de dessin vectoriel, concurrent à Adobe Illustrator, sorti en 2014.
+#### Outils de présentation et communication
 
-**Outils de présentation et communication**
+Ces outils permettent de construire une maquette interactive avec simulation de navigation, en combinant des images et en définissant des zones cliquables qui permettent de naviguer d'un écran à l'autre. Le travail de design se fait dans une autre application, p.ex. *Photoshop*, *Illustrator* ou *Sketch*. Les fichiers graphiques sont synchronisés, afin de permettre un processus de travail fluide. Ces outils facilitent également la collaboration et la discussion, via leurs fonctions de commentaires et annotations. 
 
-Ces outils permettent de construire une maquette interactive avec simulation de navigation, en combinant des images et en définissant des zones cliquables qui permettent de naviguer d'un écran à l'autre. Le travail de design se fait dans une autre application, p.ex. Photoshop, Illustrator ou Sketch. Les fichiers graphiques sont synchronisés, afin de permettre un processus de travail fluide. Ces outils facilitent également la collaboration et la discussion, via leurs fonctions de commentaires et annotations. 
-
-**InVision** - InVision est une entreprise basée à New York. "InVision is a product and prototype design tool used by hundreds of companies including Uber, Twitter, and Airbnb. Launched in 2011, the company has since raised around $80M in four fundraising rounds."
+**InVision** - InVision est une entreprise basée à New York. "Launched in 2011, the company has since raised around $80M in four fundraising rounds."
 En novembre 2014, InVision annonce [le support du format Sketch](http://blog.invisionapp.com/sketch-meet-rapid-hi-fi-prototyping/).
 
-"*Marvel* and *InVision* can be compared, but comparing them to *Just in Mind* is just wrong, this is a complete prototyping tool, the other 2 are just for finalization and collaboration."
+> "*Marvel* and *InVision* can be compared, but comparing them to *Just in Mind* is just wrong, this is a complete prototyping tool, the other 2 are just for finalization and collaboration." (un internaute)
 
 **Marvel** - Marvel est lancé en 2013 par une startup basée à Londres, comptant en 2016 une vingtaine d'employés. Construit initialement autour de DropBox, Marvel ajoute en 2015 le support des fichiers Sketch.
 
-**Particularités: **
+**Particularités:**
 
 Ces deux applications permettent la synchronisation d'images (PNG ou JPEG) depuis DropBox (ou GoogleDrive).
 
-Les deux applications proposent également un excellent support pour les fichiers Sketch:
+Les deux applications proposent également un excellent support pour les fichiers **Sketch**:
 
 - *Marvel* propose un plugin pour Sketch, qui permet de synchroniser des *artboards* depuis l'application.
 - *InVision* peut synchroniser les fichiers Sketch depuis DropBox, et va créer un écran pour chaque *artboard*.
 
-Tous deux proposent des applications mobiles:
+Tous deux proposent des **applications mobiles**:
 
 - *InVision* propose une application iOS pour iPhone et iPad ([InVision Viewer](https://itunes.apple.com/ch/app/invision-viewer/id990700027?mt=8)), qui permet de naviguer dans les projets, et de les consulter hors-ligne.
 - *Marvel* propose une [application iOS](https://itunes.apple.com/ch/app/marvel-design-apps-on-your/id765801658?mt=8) ainsi qu'une [application Android](https://play.google.com/store/apps/details?id=com.marvelapp&hl=en), qui permettent non seulement de visionner les projets (même hors-ligne) mais aussi de [créer et modifier des prototypes](https://blog.marvelapp.com/marvel-for-ios-the-prototyping-tool-for-the-mobile-generation/).
 
-Autres approches du Prototypage:
+#### Autres approches du Prototypage:
 
 Applications de prototypage utilisant un principe de "patches" (*node based design*):
 
 - *[Origami](https://facebook.github.io/origami/)* - outil développé par Facebook, utilise QuartzComposer, permet de visualiser sur iOs (avec une application, *Origami Live*).
 - *[Avocado](https://github.com/ideo/avocado/)* - "an open source interaction design toolbox, built on top of Facebook's Origami framework".
-- Form, par RelativeWave - application acquise par Google en 2014
 
 Autre logiciel atypique: *[Framer](https://framerjs.com/)*
 
@@ -142,6 +140,7 @@ La profession du design web étant en rapide évolution, le marché des outils i
  Racheté par Dropbox
 
 **Form** 
+- Form était un outil de prototypage créé par une startup de 6 personnes, RelativeWave.
 - Achat par Google en 2014.
 
 **Pixate** (2012)
