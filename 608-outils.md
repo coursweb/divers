@@ -73,30 +73,30 @@ On peut distinguer différentes classes d'outil, répondant à ces modes de trav
 - Outils classiques de graphisme (*Photoshop, Illustrator, InDesign, Keynote, Powerpoint*...)
 - Outils de wireframing: *UXPin, Balsamiq, Axure, Proto.io* ...
 - Outils de design d'interface: *Sketch* (anciennement *Fireworks*)
-- Outils de prototypage: *Just in Mind, Axure, Origami, Pixate, Edge Reflow*...
-- Outils d'animation: *After Effects* ...
+- Outils de prototypage: *Just in Mind, Axure, Origami, Pixate, Edge Reflow* ...
+- Outils d'animation: *After Effects, Principle, Framer* ...
 
 **Outils de Wireframing:**
 
 *UXPin*, *Balsamiq*, *Axure*, *Proto.io* 
 
-Ces outils servent à produire des "wireframes", càd des représentatons centrées sur la navigation et la répartition de blocs de contenus, sans interférer avec le design graphique. Il est possible de faire cela dans tout outil de dessin vectoriel (Illustrator...), mais il existe des outils spécifiquement dédiés. Il est aussi courant de produire des wireframes sur papier.
+Ces outils servent à produire des "wireframes", càd des représentatons centrées sur la navigation et la répartition de blocs de contenus, sans interférer avec le design graphique. Il est possible de faire cela avec un outil de dessin vectoriel (Illustrator...), mais il existe des outils spécifiquement dédiés. Il est aussi courant de produire des wireframes sur papier.
 
 **Outils de prototypage**
 
 *Axure*, *Just in Mind*, *Pixate*...
 
-À la différence des "wireframes", ces outils servent à produire des maquettes visuelles proches de l'expérience finale, le développement de code en moins. On distingue le prototype de la maquette (*mockup*, créé dans un outil comme Photoshop): le prototype vise à simuler non seulement le graphisme, mais aussi le comportement du produit final. Un outil de prototypage permettra de définir les interactions et les transitions entre les différents écrans du site (ou de l'application).
+À la différence des "wireframes", ces outils servent à produire des maquettes visuelles proches de l'expérience finale, l'écriture de code en moins. On distingue le prototype de la maquette (*mockup*, créé dans un outil comme Photoshop): le prototype vise à simuler non seulement le graphisme, mais aussi le comportement du produit final. Un outil de prototypage permettra de définir les *interactions* et les *transitions* entre les différents écrans du site (ou de l'application).
 
 Certains outils proposent d'inclure tout cela dans une application.
 
-Une autre approche consiste à créer les visuels dans des outils de design (Photoshop, Illustrator, Sketch...), puis de définir les interactions et parvenir à un prototype avec des outils comme InVision ou Marvel (voir ci-dessous).
+Une autre approche consiste à créer les visuels dans des outils de design (Photoshop, Illustrator, Sketch...), puis de définir les interactions et construire à un prototype avec des outils comme InVision ou Marvel (voir ci-dessous).
 
 **Outils de dessin vectoriel orientés design d'interfaces**
 
-[Sketch](https://www.sketchapp.com/), publié en 2010 par Bohemian Software, est une application de design d’interface très populaire actuellement. Sketch est développé uniquement pour Mac OSX, par une petite équipe de développement. L'édituer propose également, une application pour iOS, *Sketch Mirror*, visant à prévisualiser les créations sur iPhone ou iPad. Très populaire dans la profession, l'icône de sketch (un diamant) est venue à symboliser le designer web.
+[Sketch](https://www.sketchapp.com/), publié en 2010 par Bohemian Software, est une application de design d’interface très populaire actuellement. Sketch est développé uniquement pour Mac OSX, par une petite équipe de développement. L'éditeur propose également, une application pour iOS, *Sketch Mirror*, visant à prévisualiser les créations sur iPhone ou iPad. Très populaire dans la profession, l'icône de sketch (un diamant) est venue à symboliser le designer web.
 
-La situation des outils de design d'interface est assez particulière: Adobe a stoppé en 2010 le développement de *Fireworks*, utilisé par de nombreux webdesigners pour la création de visuels. En 2011, Adobe lance la suite de logiciels Edge (*Edge Animate, Edge Inspect, Edge Reflow, Edge Code*), afin de s'adapter aux besoins des webdesigners. La suite Edge et stoppée en 2015, certains développements étant intégrés dans *Dreamweaver* et *Muse*. En 2016, Adobe dévoile un nouveau logiciel: *Adobe Experience Design* (Adobe XD). C'est visiblement une tentative de contrer le succès de Sketch, et l'accueil des designers UX est [plutôt](http://outsmartlabs.com/blog/sketch-v-s-adobe-xd/) [critique](http://scottjensen.design/2016/04/what-i-think-of-adobe-xd/)...
+La situation des outils de design d'interface est assez particulière: Adobe a stoppé en 2010 le développement de *Fireworks*, utilisé par de nombreux webdesigners pour la création de visuels. En 2011, Adobe lance la suite de logiciels Edge (*Edge Animate, Edge Inspect, Edge Reflow, Edge Code*), afin de s'adapter aux besoins des webdesigners. La suite Edge est stoppée en 2015, certains développements étant intégrés dans *Dreamweaver* et *Muse*. En 2016, Adobe dévoile un nouveau logiciel: *Adobe Experience Design* (Adobe XD). C'est visiblement une tentative de contrer le succès de Sketch, et l'accueil des designers UX est [plutôt](http://outsmartlabs.com/blog/sketch-v-s-adobe-xd/) [critique](http://scottjensen.design/2016/04/what-i-think-of-adobe-xd/)...
 
 *Affinity Designer* est un outil de dessin vectoriel, concurrent à Adobe Illustrator, sorti en 2014.
 
