@@ -26,6 +26,35 @@ Guide d'utilisation:
 
 - faire un correctif sur un projet existant.
 
+Troubleshooting
+===
+
+Lors de la synchronisation, Git dit: "Sync Failed - There are both local and remote commits. Please commit all your changes and then sync again".
+
+Tentative: 
+- Cocher toutes les modifications ("Uncommited changes".
+- Faire un commit.
+- Refaire un sync. Message : "Sync Conflicts: Please resolve all conflicted files, commit, then try syncing again".
+- Faire un click-droit sur les fichiers affichés, faire "Discard Changes"...
+
+Résultat: 
+- Le résultat n'est pas celui escompté...
+
+error: failed to push some refs to 'https://github.com/think2make/Faire.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Solution: 
+- Comme le dit l'explicatif, il faut intégrer tout d'abord les modifications du serveur (avec un pull).
+- Si des "Merge conflicts" apparaissent... les résoudre.
+
+Problème: on se trouve avec des modifications non voulues. Comment revenir d'une version en arrière?
+
+
+
+
 
 Documentation:
 ===
