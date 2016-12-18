@@ -6,9 +6,16 @@ permalink: /divers/git/
 
 Explication concernant le système de versionnement Git.
 
-**Git** est un logiciel de *gestion de versions* décentralisé, créé en 2005 par Linus Torvalds. C'est un logiciel libre, sous licence GPL. Le site officiel de documentation est [git-scm.com](https://git-scm.com).
+**Git** est un logiciel de *gestion de versions* décentralisé, créé en 2005 par Linus Torvalds (le créateur de Linux). C'est un logiciel libre, sous licence GPL. Le site officiel de documentation est [git-scm.com](https://git-scm.com).
 
-GitHub est un service web offrant l'hébergement de projets utilisant Git, lancé en 2008. Devenu extrêmement populaire, GitHub offre de nombreux de communication et la collaboration. 
+**GitHub** est un service web offrant l'hébergement de projets utilisant Git, lancé en 2008 (cf. [cet article](http://tom.preston-werner.com/2011/03/29/ten-lessons-from-githubs-first-year.html) sur les débuts de cette startup californienne). Devenu extrêmement populaire, GitHub offre de nombreuses fonctionnalités facilitant la communication et la collaboration. 
+
+Quelques services d'hébergement Git: 
+
+* [GitHub](https://github.com/), le plus utilisé avec plus de 14 millions d'utilisateurs (état 2016). 
+* [BitBucket](https://bitbucket.org), un service freemium, acquis par la société australienne Atlassian en 2010.
+* [GitLab](https://about.gitlab.com/gitlab-com/), à la fois un service en ligne comparable à GitHub, et un outil serveur open-source.
+* [Framagit](https://framagit.org), un service reposant sur Gitlab, maintenu par l'association Framasoft.
 
 ![](/cours-divers/img/Strip-Bon-daccord-650-final.jpg)
 
@@ -29,7 +36,7 @@ Guide d'utilisation:
 Un workflow Git
 ===
 
-Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](https://mathieudutour.github.io/git-sketch-plugin/):
+Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](https://mathieudutour.github.io/git-sketch-plugin/), auteur du Git Sketch Plugin:
 
 * Créez une nouvelle branche quand vous commencez à travailler sur une nouvelle fonctionalité
 * Travaillez normalement sur votre design
@@ -37,7 +44,7 @@ Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](htt
 * Faites un "Commit" de vos modifications, avec un message les décrivant.
 * Faites un "Push" de vos modifications.
 * Faites une "pull request" de votre branche vers la branche principale ("master").
-* Voilà. Vos collaborateurs peuvent voir vos modifications, faire des commentaires, et les approuvér. Une fois approuvés, faire un "merge" de votre "pull request".
+* Voilà. Vos collaborateurs peuvent voir vos modifications, faire des commentaires, et les approuver. Une fois approuvés, faire un "merge" de votre "pull request".
 
 <h3>Liens sur les workflows Git:</h3>
 
