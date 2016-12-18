@@ -1,4 +1,8 @@
-# Installer Grunt:
+---
+layout: page
+title: Installer Grunt
+permalink: /divers/grunt/
+---
 
 Aller sur le site Gruntjs.com, puis sous [http://gruntjs.com/getting-started](http://gruntjs.com/getting-started)
 
