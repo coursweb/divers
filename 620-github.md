@@ -26,6 +26,29 @@ Guide d'utilisation:
 
 - faire un correctif sur un projet existant.
 
+Un workflow Git
+===
+
+Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](https://mathieudutour.github.io/git-sketch-plugin/):
+
+* Créez une nouvelle branche quand vous commencez à travailler sur une nouvelle fonctionalité
+* Travaillez normalement sur votre design
+* Enregistrez le fichier
+* Faites un "Commit" de vos modifications, avec un message les décrivant.
+* Faites un "Push" de vos modifications.
+* Faites une "pull request" de votre branche vers la branche principale ("master").
+* Voilà. Vos collaborateurs peuvent voir vos modifications, faire des commentaires, et les approuvér. Une fois approuvés, faire un "merge" de votre "pull request".
+
+<h3>Liens sur les workflows Git:</h3>
+
+* [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/), article de Vincent Driessen, 2010, définissant la méthodologie "Git Flow". Propose un système de branches.
+* [Using git-flow to automate your git branching workflow](http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/), par Jeff Kreeftmeijer - donne des informations techniques sur la manière d'appliquer le modèle "Git Flow" (et l'utilitaire [git-flow](https://github.com/nvie/gitflow), qui est "a wrapper around existing git commands").
+* [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), article de  Scott Chacon, 2011, qui décrit une méthode plus simple et fluide (pratiquée par l'entreprise GitHub, d'où son nom).
+* [A simple git branching model](https://gist.github.com/jbenet/ee6c9ac48068889b0912), par Juan Benet, 2013.
+* [Simple Git workflow is simple](http://blogs.atlassian.com/2014/01/simple-git-workflow-simple/), article de Nicola Paolucci, 2014.
+* [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/), article de Sytse Sijbrandij, 2014 - une méthode qui vise à prévenir la complexité de Git Flow: "git flow is too complex for most of the use cases".
+* [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows), documentation d'Atlassian (la société produisant Bitbucket et Sourcetree)
+
 Troubleshooting
 ===
 
@@ -61,7 +84,7 @@ Documentation:
 
 - *[GitHub Pour les Nuls](http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/)*, par Lauren Orsini, trad. Christophe Ducamp, 2013.
 - *[Gérez vos codes source avec Git](https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git)*, un cours sur OpenClassroooms, par Mathieu Nebra.
-- *[Les bases de Git](https://git-scm.com/book/fr/v1/Les-bases-de-Git)*, dans la documentation officielle.
+- *[Les bases de Git](https://git-scm.com/book/fr/v1/Les-bases-de-Git)*, dans la documentation officielle de Git.
 
 **En anglais:**
 
