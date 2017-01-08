@@ -33,6 +33,11 @@ Guide d'utilisation:
 
 - faire un correctif sur un projet existant.
 
+Les branches
+===
+
+Un explicatif des branches dans l'interface SourceTree: [Use SourceTree branches to merge an update](https://confluence.atlassian.com/bitbucket/use-sourcetree-branches-to-merge-an-update-732268925.html)
+
 Un workflow Git
 ===
 
