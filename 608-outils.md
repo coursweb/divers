@@ -87,7 +87,7 @@ Ces outils servent à produire des "wireframes", càd des représentatons centr�
 
 *Axure*, *Just in Mind*, *Pixate*...
 
-À la différence des "wireframes", ces outils servent à produire des maquettes visuelles proches de l'expérience finale, l'écriture de code en moins. On distingue le prototype de la maquette (*mockup*, créé dans un outil comme Photoshop): le prototype vise à simuler non seulement le graphisme, mais aussi le comportement du produit final. Un outil de prototypage permettra de définir les *interactions* et les *transitions* entre les différents écrans du site (ou de l'application).
+À la différence des "wireframes", ces outils servent à produire des maquettes visuelles proches de l'expérience finale, l'écriture de code en moins. On distingue le prototype de la maquette (*mockup*, créé dans un outil comme Photoshop): le prototype vise à simuler non seulement le graphisme, mais aussi le *comportement* du produit final. Un outil de prototypage permettra de définir les *interactions* et les *transitions* entre les différents écrans du site (ou de l'application).
 
 Certains outils proposent d'inclure tout cela dans une application.
 
@@ -97,11 +97,13 @@ Une autre approche consiste à créer les visuels dans un outil de design (Photo
 
 *Sketch*, publié en 2010 par Bohemian Software, est une application de design d’interface très populaire actuellement. Sketch est développé uniquement pour Mac OSX, par une petite équipe de développement basée aux Pays-Bas. Bohemian Software propose également une application pour iOS, *Sketch Mirror*, visant à prévisualiser les créations sur iPhone ou iPad.
 
-La situation des outils de design d'interface est assez particulière: Adobe a stoppé en 2010 le développement de *Fireworks*, utilisé par de nombreux webdesigners pour la création de visuels. En 2011, Adobe lance la suite de logiciels Edge (*Edge Animate, Edge Inspect, Edge Reflow, Edge Code*), afin de s'adapter aux besoins des webdesigners (lire à ce sujet l'article de Aaron Shekey, https://www.aaronshekey.com/work/adobe/). La suite Edge est stoppée en 2015, certains développements étant intégrés dans *Dreamweaver* et *Muse*. En 2016, Adobe dévoile un nouveau logiciel: *Adobe Experience Design* (Adobe XD). C'est visiblement une tentative de contrer le succès de Sketch, et l'accueil des designers UX est [plutôt](http://outsmartlabs.com/blog/sketch-v-s-adobe-xd/) [critique](http://scottjensen.design/2016/04/what-i-think-of-adobe-xd/)...
+La situation des outils de design d'interface est assez particulière: Adobe a stoppé en 2010 le développement de *Fireworks*, utilisé par de nombreux webdesigners pour la création de visuels. En 2011, Adobe lance la suite de logiciels Edge (*Edge Animate, Edge Inspect, Edge Reflow, Edge Code*), afin de s'adapter aux besoins des webdesigners (lire à ce sujet [cet article de Aaron Shekey](https://www.aaronshekey.com/work/adobe/)). 
+
+La suite Edge est stoppée en 2015, certains développements étant intégrés dans *Dreamweaver* et *Muse*. En 2016, Adobe dévoile un nouveau logiciel: *Adobe Experience Design* (Adobe XD). C'est visiblement une tentative de contrer le succès de Sketch, et l'accueil des designers UX est [plutôt](http://outsmartlabs.com/blog/sketch-v-s-adobe-xd/) [critique](http://scottjensen.design/2016/04/what-i-think-of-adobe-xd/)...
 
 #### Outils de présentation et communication
 
-Ces outils permettent de construire une maquette interactive avec simulation de navigation, en combinant des images et en définissant des zones cliquables qui permettent de naviguer d'un écran à l'autre. Le travail de design se fait dans une autre application, p.ex. *Photoshop*, *Illustrator* ou *Sketch*. Les fichiers graphiques sont synchronisés, afin de permettre un processus de travail fluide. Ces outils facilitent également la collaboration et la discussion, via leurs fonctions de commentaires et annotations. 
+Ces outils permettent de construire une maquette interactive avec simulation de navigation, en combinant des images et en définissant des zones cliquables qui permettent de naviguer d'un écran à l'autre. Le travail de design se fait dans une autre application, p.ex. Photoshop, Illustrator ou Sketch. Les fichiers graphiques sont synchronisés, afin de permettre un processus de travail fluide. Ces outils facilitent également la collaboration et la discussion, via leurs fonctions de commentaires et annotations. 
 
 **InVision** - InVision est une entreprise basée à New York. "Launched in 2011, the company has since raised around $80M in four fundraising rounds."
 En novembre 2014, InVision annonce [le support du format Sketch](http://blog.invisionapp.com/sketch-meet-rapid-hi-fi-prototyping/).
@@ -116,19 +118,19 @@ Ces deux applications permettent la synchronisation d'images (PNG ou JPEG) depui
 
 Les deux applications proposent également un excellent support pour les fichiers **Sketch**:
 
-- *Marvel* propose un plugin pour Sketch, qui permet de synchroniser des *artboards* depuis l'application.
-- *InVision* peut synchroniser les fichiers Sketch depuis DropBox, et va créer un écran pour chaque *artboard*.
+- **Marvel** propose un plugin pour Sketch, qui permet de synchroniser des *artboards* depuis l'application.
+- **InVision** peut synchroniser les fichiers Sketch depuis DropBox, et va créer un écran pour chaque *artboard*.
 
 Tous deux proposent des **applications mobiles**:
 
-- *InVision* propose une application iOS pour iPhone et iPad ([InVision Viewer](https://itunes.apple.com/ch/app/invision-viewer/id990700027?mt=8)), qui permet de naviguer dans les projets, et de les consulter hors-ligne.
-- *Marvel* propose une [application iOS](https://itunes.apple.com/ch/app/marvel-design-apps-on-your/id765801658?mt=8) ainsi qu'une [application Android](https://play.google.com/store/apps/details?id=com.marvelapp&hl=en), qui permettent non seulement de visionner les projets (même hors-ligne) mais aussi de [créer et modifier des prototypes](https://blog.marvelapp.com/marvel-for-ios-the-prototyping-tool-for-the-mobile-generation/).
+- **InVision** propose une application iOS pour iPhone et iPad ([InVision Viewer](https://itunes.apple.com/ch/app/invision-viewer/id990700027?mt=8)), qui permet de naviguer dans les projets, et de les consulter hors-ligne.
+- **Marvel** propose une [application iOS](https://itunes.apple.com/ch/app/marvel-design-apps-on-your/id765801658?mt=8) ainsi qu'une [application Android](https://play.google.com/store/apps/details?id=com.marvelapp&hl=en), qui permettent non seulement de visionner les projets (même hors-ligne) mais aussi de [créer et modifier des prototypes](https://blog.marvelapp.com/marvel-for-ios-the-prototyping-tool-for-the-mobile-generation/).
 
 #### Autres approches du Prototypage:
 
 Applications de prototypage utilisant un principe de "patches" (*node based design*):
 
-- *[Origami](https://facebook.github.io/origami/)* - outil développé par Facebook, utilise QuartzComposer, permet de visualiser sur iOs (avec une application, *Origami Live*).
+- *[Origami](https://facebook.github.io/origami/)* - outil développé par Facebook, utilise QuartzComposer, permet de visualiser sur iOS (avec une application, *Origami Live*).
 - *[Avocado](https://github.com/ideo/avocado/)* - "an open source interaction design toolbox, built on top of Facebook's Origami framework".
 
 Autre logiciel atypique: *[Framer](https://framerjs.com/)*
@@ -136,20 +138,24 @@ Autre logiciel atypique: *[Framer](https://framerjs.com/)*
 La profession du design web étant en rapide évolution, le marché des outils informatiques est particulièrement instable. Les nouveaux outils sont souvent lancés en mode "startup", avec un financement initial modeste et un modèle économique flou. Par conséquent, il n'est pas rare que ces entreprises disparaissent, en se faisant racheter par l'un des "géants": 
 
 **Pixelapse** (2011)
- Permet de comparer visuellement des changements de design pour un site.
- Racheté par Dropbox
+
+- Permet de comparer visuellement des changements de design.
+- Racheté par Dropbox.
 
 **Form** 
-- Form était un outil de prototypage créé par une startup de 6 personnes, RelativeWave.
+
+- Outil de prototypage créé par une startup de 6 personnes, RelativeWave.
 - Achat par Google en 2014.
 
 **Pixate** (2012)
+
 - Slogan: “the most powerful prototyping platform”
 - [Campagne Kickstarter](https://www.kickstarter.com/projects/pixate/beautiful-native-mobile-apps/description) en 2012 qui a levé $61,274.
 - Achat par Google en 2015. Annonce la fin du développement en 2016.
 - En 2016, Google annonce une nouvelle application, *Stage*: "Stage is being brought to you by the teams behind Pixate and Form."
 
 **Macaw** (2014)
+
 - Slogan: “the code-savvy Web design tool”  
 - Campagne Kickstarter en 2013 qui a levé $275,929.
 - Achat par InVision en 2016, le développement s'achève.
@@ -170,29 +176,29 @@ Versionnement de code
 
 Le versionnement permet de garder et de remonter à des versions antérieures d’un projet, et même de fusionner des changements apportés par plusieurs collaborateurs sur un même fichiers.
 
-Versionnement avec Git
-- GitHub app
-- SourceTree
+Versionnement avec Git:
 
-## Sécurité
+- [GitHub Desktop](https://desktop.github.com/)
+- [SourceTree](https://www.sourcetreeapp.com/)
+- voir [la documentation pour utiliser Git](../git/)
 
-- Services de backup automatique
-
-Backups
+Sécurité
 ===
 
-- Time Machine
-- Crashplan :  permet de faire des backups réguliers de certains dossiers importants. Prix de 50$ par année, espace de stockage illimité.
+<h3>Services de backup automatique</h3>
 
-Gestionnaire de mots de passe
+- [Time Machine](https://support.apple.com/fr-fr/HT201250) : intégré dans le système Mac OSX.
+- [Crashplan](https://www.crashplan.com/) :  service en ligne, permet de faire des backups réguliers de dossiers spécifiques. Prix de 50$ par année, espace de stockage illimité.
 
-- LastPass
-- Dashlane
+<h3>Gestionnaires de mots de passe</h3>
+
+Ces services offrent des applications desktop et des extensions de navigateur, pour enregistrer et utiliser facilement des mots de passe:
+
+- [LastPass](https://lastpass.com/)
+- [Dashlane](https://www.dashlane.com/)
 - 1Password
-- RoboForm
-- Keeper
-
-Ces services offrent des applications desktop et des extensions de navigateur.
+- [RoboForm](http://www.roboform.com/)
+- [Keeper](https://keepersecurity.com)
 
 Lire: [http://www.panoptinet.com/cybersecurite-decryptee/test-dashlane-lastpass-keepass-quel-logiciel-choisir/](http://www.panoptinet.com/cybersecurite-decryptee/test-dashlane-lastpass-keepass-quel-logiciel-choisir/)
 
@@ -203,6 +209,8 @@ Ces outils permettent la visualisation du temps passé à un projet, de facilite
 
 - Freshbooks
 - Harvest
+- [Toggl](https://toggl.com)
+- [Timely](https://www.timelyapp.com)
 
 Mail, contacts, agenda
 ===
@@ -210,10 +218,15 @@ Mail, contacts, agenda
 Clients email:
 
 - Mail, par Apple
-- [Thunderbird](https://www.mozilla.org/fr/thunderbird/)
-- [Airmail](http://airmailapp.com/) - 10$
-- [Postbox](https://www.postbox-inc.com/)
+- [Thunderbird](https://www.mozilla.org/fr/thunderbird/) - client développé par Mozilla, gratuit et open-source
+- [Spark](https://sparkmailapp.com/) - client mail développé par Readdle (une compagnie ukrainienne), gratuit
+- [Airmail](http://airmailapp.com/) - client mail développé par une startup italienne. Prix:  10$
+- [Postbox](https://www.postbox-inc.com/) - client mail créé par une petite entreprise californienne, lancé en 2007 par d'anciens développeurs de Thunderbird. Prix: $40
 
-Gestion d'agenda
+Gestion d'agenda:
 
-Gestion de contacts
+À documenter
+
+Gestion de contacts:
+
+À documenter
