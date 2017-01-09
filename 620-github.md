@@ -105,16 +105,17 @@ Il est important de réaliser que le plus important, avec Git, c'est d'adopter l
 Troubleshooting
 ===
 
-**Problème:** Lors de la synchronisation, Git dit: `Sync Failed - There are both local and remote commits. Please commit all your changes and then sync again`.
+**Problème:** Lors de la synchronisation, Git dit: *Sync Failed - There are both local and remote commits. Please commit all your changes and then sync again*.
 
 Tentative: 
+
 - Cocher toutes les modifications ("Uncommited changes").
 - Faire un "Commit".
-- Refaire un "Sync". Message : `Sync Conflicts: Please resolve all conflicted files, commit, then try syncing again`.
+- Refaire un "Sync". Message : *Sync Conflicts: Please resolve all conflicted files, commit, then try syncing again*.
 - Faire un click-droit sur les fichiers affichés, faire "Discard Changes"...
 
-Résultat: 
-- Le résultat n'est pas celui escompté...
+Résultat:  
+Le résultat n'est pas celui escompté...
 
 ```
 error: failed to push some refs to 'https://github.com/monprojet.git'
@@ -125,15 +126,17 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 
 **Solution:** 
+
 - Comme le dit l'explicatif, il faut intégrer tout d'abord les modifications du serveur (avec un pull).
 - Si des "Merge conflicts" apparaissent... les résoudre.
 
 ***
 
-**Problème:** on se trouve avec des modifications non voulues. Comment revenir d'une version en arrière?
+**Problème:**  
+On se trouve avec des modifications non voulues. Comment revenir d'une version en arrière?
 
-Solution: 
-- Se rendre dans l'historique de Github Desktop, et retourner dans une version antérieure avec un double click.
+**Solution:**  
+Se rendre dans l'historique de Github Desktop, et retourner dans une version antérieure avec un double click.
 
 ***
 
