@@ -17,21 +17,47 @@ Quelques services d'hébergement Git:
 * [GitLab](https://about.gitlab.com/gitlab-com/), à la fois un service en ligne comparable à GitHub, et un outil serveur open-source.
 * [Framagit](https://framagit.org), un service reposant sur Gitlab, maintenu par l'association Framasoft.
 
+Terminologie Git
+==
+
+Commit : Valider vos modifications (a snapshot of your repo)
+
+Push : send commits to a remote
+
+Pull : get commits from a remote
+
+Checkout : time travel to a specific commit
+
+Stash : save modified and staged changes
+
+Merge : combining two branches
+
+Rebase : apply any commits of current branch ahead of specified one
+
+Branch : create a new branch at the current commit (a movable label that points to a commit)
+
 ![](/cours-divers/img/Strip-Bon-daccord-650-final.jpg)
 
-Guide d'utilisation:
+Guide d'utilisation Github:
+==
 
 - créer un compte.
-
 - télécharger l'application Github Desktop.
-
 - créer un repository.
-
 - synchroniser ses modifications
-
 - remommer la branche "master" en "gh-pages".
-
 - faire un correctif sur un projet existant.
+
+Ecriture de messages de Commit
+===
+
+"En règle générale, les messages doivent débuter par une ligne unique d’au plus 50 caractères décrivant concisément la modification, suivie d’une ligne vide, suivie d’une explication plus détaillée. Le projet Git exige que l’explication détaillée inclue la motivation de la modification en contrastant le nouveau comportement par rapport à l’ancien — c’est une bonne règle de rédaction."
+
+Source: [The Git Book](https://git-scm.com/book/fr/v2/Git-distribu%C3%A9-Contribution-%C3%A0-un-projet)
+
+![Messages de Commit](/cours-divers/img/git-commit-messages.png)
+
+Source: présentaton par Alice Bartlett
 
 Les branches
 ===
@@ -41,15 +67,15 @@ Un explicatif des branches dans l'interface SourceTree: [Use SourceTree branches
 Un workflow Git
 ===
 
-Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](https://mathieudutour.github.io/git-sketch-plugin/), auteur du Git Sketch Plugin:
+Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](https://mathieudutour.github.io/git-sketch-plugin/), auteur du *Git Sketch Plugin*:
 
-* Créez une nouvelle branche quand vous commencez à travailler sur une nouvelle fonctionalité
-* Travaillez normalement sur votre design
-* Enregistrez le fichier
+* Créez une nouvelle *branche* quand vous commencez à travailler sur une nouvelle fonctionalité.
+* Travaillez normalement sur votre design.
+* Enregistrez le fichier.
 * Faites un "Commit" de vos modifications, avec un message les décrivant.
 * Faites un "Push" de vos modifications.
 * Faites une "pull request" de votre branche vers la branche principale ("master").
-* Voilà. Vos collaborateurs peuvent voir vos modifications, faire des commentaires, et les approuver. Une fois approuvés, faire un "merge" de votre "pull request".
+* Voilà! Vos collaborateurs peuvent voir vos modifications, faire des commentaires, et les approuver. Une fois approuvés, faire un "merge" de votre "pull request".
 
 <h3>Liens sur les workflows Git:</h3>
 
@@ -61,46 +87,82 @@ Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](htt
 * [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/), article de Sytse Sijbrandij, 2014 - une méthode qui vise à prévenir la complexité de Git Flow: "git flow is too complex for most of the use cases".
 * [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows), documentation d'Atlassian (la société produisant Bitbucket et Sourcetree)
 
+Difficile?
+===
+
+Git n'est certainement pas un outil simple. Voici quelques citations qui le confirment:
+
+> Git isn’t difficult because you’re not smart enough, or because you missed an important meeting. Git is difficult because Git is difficult.
+
+David Demaree, auteur de *Git for Humans*
+
+> I’m not good with Git, and still don’t fully understand how rebasing works. I messed up my commits a couple of times. Not a big deal, but I got different error messages no matter which workflow I tried. I realized that I need to know more about Git, and be more patient.
+
+Sami Keijonen, développeur, [dans un article](https://poststatus.com/contributing-to-twenty-seventeen-theme/) où il relate sa contribution au thème WordPress TwentySeven
+
+Il est important de réaliser que le plus important, avec Git, c'est d'adopter la pratique du "versionnement" dans son processus de travail. Ce n'est pas seulement un outil, un logiciel - c'est un ensemble de méthodes pour mieux organiser le travail collaboratif.
+
 Troubleshooting
 ===
 
-Lors de la synchronisation, Git dit: "Sync Failed - There are both local and remote commits. Please commit all your changes and then sync again".
+**Problème:** Lors de la synchronisation, Git dit: `Sync Failed - There are both local and remote commits. Please commit all your changes and then sync again`.
 
 Tentative: 
-- Cocher toutes les modifications ("Uncommited changes".
-- Faire un commit.
-- Refaire un sync. Message : "Sync Conflicts: Please resolve all conflicted files, commit, then try syncing again".
+- Cocher toutes les modifications ("Uncommited changes").
+- Faire un "Commit".
+- Refaire un "Sync". Message : `Sync Conflicts: Please resolve all conflicted files, commit, then try syncing again`.
 - Faire un click-droit sur les fichiers affichés, faire "Discard Changes"...
 
 Résultat: 
 - Le résultat n'est pas celui escompté...
 
-error: failed to push some refs to 'https://github.com/think2make/Faire.git'
+```
+error: failed to push some refs to 'https://github.com/monprojet.git'
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
 
-Solution: 
+**Solution:** 
 - Comme le dit l'explicatif, il faut intégrer tout d'abord les modifications du serveur (avec un pull).
 - Si des "Merge conflicts" apparaissent... les résoudre.
 
-Problème: on se trouve avec des modifications non voulues. Comment revenir d'une version en arrière?
+***
 
+**Problème:** on se trouve avec des modifications non voulues. Comment revenir d'une version en arrière?
 
+Solution: 
+- Se rendre dans l'historique de Github Desktop, et retourner dans une version antérieure avec un double click.
 
+***
 
+**Problème:** on a des caractères étranges dans un document, comme ceci: 
+
+```
+<<<<<<< HEAD
+    Une version de mon projet
+=======
+    Une autre version de mon projet
+>>>>>>> master
+```
+
+Solution: Ces symboles sont des délimiteurs nommés "conflict markers", ils indiquent un conflit non-résolu entre deux versions d'un même fichier, que Git n'a pas pu résoudre automatiquement.
+
+Vous devez les corriger soit en effaçant l'une des versions, soit en utilisant une fonction "Resolve a Merge" dans votre logiciel Git.
 
 Documentation:
 ===
 
 - *[GitHub Pour les Nuls](http://christopheducamp.com/2013/12/15/github-pour-nuls-partie-1/)*, par Lauren Orsini, trad. Christophe Ducamp, 2013.
 - *[Gérez vos codes source avec Git](https://openclassrooms.com/courses/gerez-vos-codes-source-avec-git)*, un cours sur OpenClassroooms, par Mathieu Nebra.
-- *[Les bases de Git](https://git-scm.com/book/fr/v1/Les-bases-de-Git)*, dans la documentation officielle de Git.
+- *[Les bases de Git](https://git-scm.com/book/fr/v12)*, dans la documentation officielle de Git.
+- [git-guide](http://rogerdudler.github.io/git-guide/index.fr.html), par Roger Dudler (traduit par KokaKiwi)
+- [intro-git](http://liris.cnrs.fr/~pchampin/enseignement/intro-git/), support réalisé par Pierre-Antoine Champin et Amélie Cordier
 
 **En anglais:**
 
-*GitHub for the Rest of Us*, par Morten Rand-Hendriksen:  
+*GitHub for the Rest of Us* (explication de Git par la science-fiction), par Morten Rand-Hendriksen:  
 
 - [Vidéo de 10 minutes](https://wordpress.tv/2015/12/13/morten-rand-hendriksen-github-for-the-rest-of-us/)
 - [Slides](https://mor10.com/github-wcus/)
@@ -108,5 +170,9 @@ Documentation:
 Logiciels:
 ===
 
+Quelques clients Git qui proposent une interface graphique, en alternative à la ligne de commande:
+
 - [GitHub Desktop](https://desktop.github.com/), client Git (Mac et Windows) développé par GitHub.
 - [SourceTree](https://www.sourcetreeapp.com/), client Git (Mac et Windows) développé par Atlassian (société proposant le service BitBucket).
+- [GitKraken](https://www.gitkraken.com/), "Free for open source, education, non‑profit, startups* or personal use".
+- [SmartGit](http://www.syntevo.com/smartgit/ ), "can be used free of charge by Open Source developers, teachers and their students, or for hobby, non-paid usage."

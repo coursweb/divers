@@ -15,7 +15,7 @@ Editeurs de code:
 * *[Sublime Text](https://www.sublimetext.com/)* - éditeur gratuit, le plus populaire en ce moment. Il existe [un grand nombre d'extensions](https://packagecontrol.io/) pour étendre ses fonctionalités. 
 * *[Atom](https://atom.io/)* - éditeur gratuit et open source, très similaire à Sublime Text. Il existe également [des extensions](https://atom.io/packages).
 * *[Coda](https://panic.com/coda/)* - éditeur avec des fonctions de prévisualisation. Prix: $99.
-* *[Espresso](http://www.macrabbit.com/espresso/)* - éditeur avec des fonctions de prévisualisation du CSS. Prix: $75. Développement en standby depuis juin 2015.
+* *[Espresso](http://www.macrabbit.com/espresso/)* - éditeur avec des fonctions de prévisualisation du CSS. Prix: $75.
 * *[PhpStorm](https://www.jetbrains.com/phpstorm/)* - éditeur spécialisé pour le langage PHP (utile pour le développement de thèmes WordPress, par exemple).
 
 Parmi les fonctionalités partagées par tous ces éditeurs de code: 
@@ -68,6 +68,8 @@ Depuis quelques années, la pertinence des outils de design classiques dans l'en
 - Khoi Vinh, mai 2015: “[The State of Design Tools: An Unscientific Survey](https://www.subtraction.com/2015/05/07/the-state-of-design-tools/)” - L'auteur indique: 
 
 > “Prototyping is the Wild West. Every team we met with uses a variety of prototyping tools, whether Pixate, Marvel, InVision, Flinto or others.”
+
+![Catégories établies par Khoi Vinh dans son sondage](/cours-divers/imgimg/categories-outils.png)
 
 On peut distinguer différentes classes d'outil, répondant à ces modes de travail multiples, et dans une certaine mesure à différentes étapes du processus de création:
 
