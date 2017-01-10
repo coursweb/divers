@@ -22,21 +22,21 @@ Quelques services d'hébergement Git:
 Terminologie Git
 ==
 
-**Commit** : Valider vos modifications (a snapshot of your repo)
+**Commit** (commettre) : Valider vos modifications (a snapshot of your repo)
 
-**Push** : send commits to a remote
+**Push** (pousser) : send commits to a remote
 
-**Pull** : get commits from a remote
+**Pull** (tirer) : get commits from a remote
 
 **Checkout** : time travel to a specific commit
 
-**Stash** : save modified and staged changes (en français: remise)
+**Stash** (ranger) : save modified and staged changes (en français: remise)
 
-**Merge** : combining two branches
+**Merge** (fusionner) : combining two branches
 
-**Rebase** : apply any commits of current branch ahead of specified one
+**Rebase** (rembobiner) : apply any commits of current branch ahead of specified one
 
-**Branch** : create a new branch at the current commit (a movable label that points to a commit)
+**Branch** (branche) : create a new branch at the current commit (a movable label that points to a commit)
 
 **index** : aussi "stage", "staging area": Il s’agit de la zone de validation désignant les travaux que vous souhaitez voir apparaître dans votre prochain commit.
 
@@ -95,7 +95,7 @@ Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](htt
 
 Quelques autres articles sur l'utilisation de Git:
 
-* [Bien utiliser Git merge et rebase](http://www.git-attitude.fr/2014/05/04/bien-utiliser-git-merge-et-rebase/), par Christophe Porteneuve (git-attitude), 2014
+- [Bien utiliser Git merge et rebase](http://www.git-attitude.fr/2014/05/04/bien-utiliser-git-merge-et-rebase/), par Christophe Porteneuve (git-attitude), 2014
 
 Difficile?
 ===
@@ -179,6 +179,7 @@ Documentation:
 - *[Les bases de Git](https://git-scm.com/book/fr/v12)*, dans la documentation officielle de Git.
 - [git-guide](http://rogerdudler.github.io/git-guide/index.fr.html), par Roger Dudler (traduit par KokaKiwi)
 - [intro-git](http://liris.cnrs.fr/~pchampin/enseignement/intro-git/), support réalisé par Pierre-Antoine Champin et Amélie Cordier
+- [Git Cheatsheet](http://ndpsoftware.com/git-cheatsheet.html), par Andrew Peterson
 
 **En anglais:**
 
@@ -196,3 +197,7 @@ Quelques clients Git qui proposent une interface graphique, en alternative à la
 - [SourceTree](https://www.sourcetreeapp.com/), client Git (Mac et Windows) développé par Atlassian (société proposant le service BitBucket).
 - [GitKraken](https://www.gitkraken.com/), "Free for open source, education, non‑profit, startups* or personal use".
 - [SmartGit](http://www.syntevo.com/smartgit/ ), "can be used free of charge by Open Source developers, teachers and their students, or for hobby, non-paid usage."
+
+Un utilitaire ligne de commande, pour utiliser des commandes en français:
+
+- https://gist.github.com/remiprev/1110021

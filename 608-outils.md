@@ -69,7 +69,7 @@ Depuis quelques années, la pertinence des outils de design classiques dans l'en
 
 > “Prototyping is the Wild West. Every team we met with uses a variety of prototyping tools, whether Pixate, Marvel, InVision, Flinto or others.”
 
-![Catégories établies par Khoi Vinh dans son sondage](/cours-divers/imgimg/categories-outils.png)
+![Catégories établies par Khoi Vinh dans son sondage](/cours-divers/img/categories-outils.png)
 
 On peut distinguer différentes classes d'outil, répondant à ces modes de travail multiples, et dans une certaine mesure à différentes étapes du processus de création:
 
@@ -209,8 +209,8 @@ Facturation & mesure du temps
 
 Ces outils permettent la visualisation du temps passé à un projet, de faciliter la facturation de ses horaires.
 
-- Freshbooks
-- Harvest
+- [Freshbooks](https://www.freshbooks.com/)
+- [Harvest](https://www.getharvest.com/)
 - [Toggl](https://toggl.com)
 - [Timely](https://www.timelyapp.com)
 
