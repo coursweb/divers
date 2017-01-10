@@ -36,6 +36,8 @@ Rebase : apply any commits of current branch ahead of specified one
 
 Branch : create a new branch at the current commit (a movable label that points to a commit)
 
+HEAD : You can think of the HEAD as a pointer that points to the "current branch". The current HEAD is local to each repository, and is therefore individual for each developer.
+
 ![](/cours-divers/img/Strip-Bon-daccord-650-final.jpg)
 
 Guide d'utilisation Github:
@@ -57,7 +59,7 @@ Source: [The Git Book](https://git-scm.com/book/fr/v2/Git-distribu%C3%A9-Contrib
 
 ![Messages de Commit](/cours-divers/img/git-commit-messages.png)
 
-Source: présentaton par Alice Bartlett
+Source: *Git for Humans*, présentation par Alice Bartlett, développeuse au Financial Times
 
 Les branches
 ===
