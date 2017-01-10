@@ -17,26 +17,30 @@ Quelques services d'hébergement Git:
 * [GitLab](https://about.gitlab.com/gitlab-com/), à la fois un service en ligne comparable à GitHub, et un outil serveur open-source.
 * [Framagit](https://framagit.org), un service reposant sur Gitlab, maintenu par l'association Framasoft.
 
+![publication marketing de GitHub](/cours-divers/img/github-activity-book.jpg)
+
 Terminologie Git
 ==
 
-Commit : Valider vos modifications (a snapshot of your repo)
+**Commit** : Valider vos modifications (a snapshot of your repo)
 
-Push : send commits to a remote
+**Push** : send commits to a remote
 
-Pull : get commits from a remote
+**Pull** : get commits from a remote
 
-Checkout : time travel to a specific commit
+**Checkout** : time travel to a specific commit
 
-Stash : save modified and staged changes
+**Stash** : save modified and staged changes (en français: remise)
 
-Merge : combining two branches
+**Merge** : combining two branches
 
-Rebase : apply any commits of current branch ahead of specified one
+**Rebase** : apply any commits of current branch ahead of specified one
 
-Branch : create a new branch at the current commit (a movable label that points to a commit)
+**Branch** : create a new branch at the current commit (a movable label that points to a commit)
 
-HEAD : You can think of the HEAD as a pointer that points to the "current branch". The current HEAD is local to each repository, and is therefore individual for each developer.
+**index** : aussi "stage", "staging area": Il s’agit de la zone de validation désignant les travaux que vous souhaitez voir apparaître dans votre prochain commit.
+
+**HEAD** : HEAD est un pointeur, une référence sur notre position actuelle dans notre répertoire de travail Git. "The current HEAD is local to each repository, and is therefore individual for each developer."
 
 ![](/cours-divers/img/Strip-Bon-daccord-650-final.jpg)
 
@@ -89,6 +93,10 @@ Une méthodologie Git pour projets de design, proposée par [Mathieu Dutour](htt
 * [GitLab Flow](https://about.gitlab.com/2014/09/29/gitlab-flow/), article de Sytse Sijbrandij, 2014 - une méthode qui vise à prévenir la complexité de Git Flow: "git flow is too complex for most of the use cases".
 * [Comparing Workflows](https://www.atlassian.com/git/tutorials/comparing-workflows), documentation d'Atlassian (la société produisant Bitbucket et Sourcetree)
 
+Quelques autres articles sur l'utilisation de Git:
+
+* [Bien utiliser Git merge et rebase](http://www.git-attitude.fr/2014/05/04/bien-utiliser-git-merge-et-rebase/), par Christophe Porteneuve (git-attitude), 2014
+
 Difficile?
 ===
 
@@ -109,14 +117,15 @@ Troubleshooting
 
 **Problème:** Lors de la synchronisation, Git dit: *Sync Failed - There are both local and remote commits. Please commit all your changes and then sync again*.
 
-Tentative: 
+**Tentative:** 
 
 - Cocher toutes les modifications ("Uncommited changes").
 - Faire un "Commit".
 - Refaire un "Sync". Message : *Sync Conflicts: Please resolve all conflicted files, commit, then try syncing again*.
 - Faire un click-droit sur les fichiers affichés, faire "Discard Changes"...
 
-Résultat:  
+**Résultat:**  
+
 Le résultat n'est pas celui escompté...
 
 ```
@@ -152,9 +161,15 @@ Se rendre dans l'historique de Github Desktop, et retourner dans une version ant
 >>>>>>> master
 ```
 
-Solution: Ces symboles sont des délimiteurs nommés "conflict markers", ils indiquent un conflit non-résolu entre deux versions d'un même fichier, que Git n'a pas pu résoudre automatiquement.
+**Solution:** Ces symboles sont des délimiteurs nommés "conflict markers", ils indiquent un conflit non-résolu entre deux versions d'un même fichier, que Git n'a pas pu résoudre automatiquement.
 
 Vous devez les corriger soit en effaçant l'une des versions, soit en utilisant une fonction "Resolve a Merge" dans votre logiciel Git.
+
+***
+
+Pour sa présentation *"[Changing History, or How to Git pretty](http://justinhileman.info/article/changing-history/)"*, Justin Hileman a créé le graphe "escape a git mess, step-by-step" - visuel qui explique les différentes manières de résoudre des problèmes dans Git:
+
+![escape a git mess, step-by-step](/cours-divers/img/git-pretty.png)
 
 Documentation:
 ===
@@ -167,10 +182,10 @@ Documentation:
 
 **En anglais:**
 
-*GitHub for the Rest of Us* (explication de Git par la science-fiction), par Morten Rand-Hendriksen:  
-
-- [Vidéo de 10 minutes](https://wordpress.tv/2015/12/13/morten-rand-hendriksen-github-for-the-rest-of-us/)
-- [Slides](https://mor10.com/github-wcus/)
+- *GitHub for the Rest of Us* (explication de Git par la science-fiction), par Morten Rand-Hendriksen: [Vidéo de 10 minutes](https://wordpress.tv/2015/12/13/morten-rand-hendriksen-github-for-the-rest-of-us/) / [Slides](https://mor10.com/github-wcus/)
+- *[Think Like (a) Git](http://think-like-a-git.net/)*, une explication par Sam Livingston-Gray, 2011.
+- *[Get Started with Git](http://alistapart.com/article/get-started-with-git)*, par Al Shaw, A List Apart #317, 2010. 
+- *[Git: The Safety Net for Your Projects](http://alistapart.com/article/git-the-safety-net-for-your-projects)*, par Tobias Günther, A List Apart #402, 2014
 
 Logiciels:
 ===
