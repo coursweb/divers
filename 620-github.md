@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Git et Github
+title: Git et GitHub
 permalink: /divers/git/
 ---
 
@@ -44,15 +44,66 @@ Terminologie Git
 
 ![](/cours-divers/img/Strip-Bon-daccord-650-final.jpg)
 
-Guide d'utilisation Github:
+Guide d'utilisation GitHub:
 ==
 
+(Documentation à compléter)
+
 - créer un compte.
-- télécharger l'application Github Desktop.
-- créer un repository.
-- synchroniser ses modifications
-- remommer la branche "master" en "gh-pages".
-- faire un correctif sur un projet existant.
+- Télécharger l'application [Github Desktop](https://desktop.github.com/).
+- Créer un repository.
+- Synchroniser ses modifications
+- Remommer la branche "master" en "gh-pages".
+- Faire un correctif sur un projet existant.
+
+Utiliser Github Pages:
+==
+
+Comment créer un site hébergé dans Github Pages:
+
+<h3>Réglages à faire dans l'administration DNS de votre hébergeur</h3>
+
+- Réfléchissez au type de domaine que vous souhaitez utiliser. 
+- Rendez-vous dans la gestion des zones DNS de votre domaine (chez Infomaniak ou autre).
+- Pour trouver cet endroit chez Infomaniak, connectez-vous à [admin2.infomaniak.com](https://admin2.infomaniak.com/), allez dans : *Nom de domaine > Nom de votre domaine > Gestion des DNS*, puis cliquez le bouton "Gérer les zones DNS".
+
+**Option sous-domaine:**
+
+- Si le domaine comporte un sous-domaine, comme portfolio.example.com, ou www.example.com, vous devrez créer une entrée de type CNAME.
+- Renseignez "Champ/Field" (entrer le sous-domaine choisi), et "Cible/Target" (username.github.io). Si votre utilisateur est p.ex. Gandalf69, vous entrerez : gandalf69.github.io (tout en minuscules).
+- Vous pouvez laisser le champ TTL avec sa valeur par défaut.
+
+![Ajout de CNAME chez Infomaniak](/cours-divers/img/github-dns-cname.png)
+
+![Ajout de CNAME chez O2Switch](/cours-divers/img/git-cname-o2switch.png)
+
+**Option "apex domain":**
+
+- Si le domaine est dépourvu de sous-domaine, comme **cours-web.ch** (un "apex domain"), la procédure est différente. Il faudra créer deux entrées de type A.
+- Renseignez "Cible" et entrez les adresses IP fournies par Github dans leur documentation, à savoir 192.30.252.153 et 192.30.252.154 (une pour chaque entrée A).
+- Vous pouvez laisser le champ TTL avec sa valeur par défaut.
+
+![Ajout de zone A chez Infomaniak](/cours-divers/img/git-apex-infomaniak.png)
+
+![Même réglage, chez Hostpoint](/cours-divers/img/git-apex-hostpoint.png)
+
+<h3>Réglages à faire dans GitHub</h3>
+
+- Premièrement, votre projet doit être publié sur GitHub.
+- Créer une nouvelle branche, que vous nommez "gh-pages".
+- Si vous n'utilisez pas la branche "master", vous pouvez définir "gh-page" comme branche principale (et effacer la branche "master" pour éviter les confusions).
+- Aller dans les "Settings" de votre projet, dans la partie "Github Pages"
+- Renseignez le domaine, p.ex. portfolio.example.com
+- Enregistrez ("Save") - ça y est, votre site fonctionne!
+
+![Saisie du domaine pour GitHub Pages](/cours-divers/img/github-custom-pages.png)
+
+Références GitHub: 
+
+* [Using a custom domain with GitHub Pages](https://help.github.com/articles/using-a-custom-domain-with-github-pages/)
+* [About supported custom domains](https://help.github.com/articles/about-supported-custom-domains/)
+* [Setting up an apex domain](https://help.github.com/articles/setting-up-an-apex-domain-and-www-subdomain/)
+
 
 Ecriture de messages de Commit
 ===
@@ -108,7 +159,7 @@ David Demaree, auteur de *Git for Humans*
 
 > I’m not good with Git, and still don’t fully understand how rebasing works. I messed up my commits a couple of times. Not a big deal, but I got different error messages no matter which workflow I tried. I realized that I need to know more about Git, and be more patient.
 
-Sami Keijonen, développeur, [dans un article](https://poststatus.com/contributing-to-twenty-seventeen-theme/) où il relate sa contribution au thème WordPress TwentySeven
+Sami Keijonen, développeur, [dans un article](https://poststatus.com/contributing-to-twenty-seventeen-theme/) où il relate sa contribution au thème WordPress TwentySeven.
 
 Il est important de réaliser que le plus important, avec Git, c'est d'adopter la pratique du "versionnement" dans son processus de travail. Ce n'est pas seulement un outil, un logiciel - c'est un ensemble de méthodes pour mieux organiser le travail collaboratif.
 
@@ -183,6 +234,7 @@ Documentation:
 
 **En anglais:**
 
+- *[Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)*, par John Wiegley
 - *GitHub for the Rest of Us* (explication de Git par la science-fiction), par Morten Rand-Hendriksen: [Vidéo de 10 minutes](https://wordpress.tv/2015/12/13/morten-rand-hendriksen-github-for-the-rest-of-us/) / [Slides](https://mor10.com/github-wcus/)
 - *[Think Like (a) Git](http://think-like-a-git.net/)*, une explication par Sam Livingston-Gray, 2011.
 - *[Get Started with Git](http://alistapart.com/article/get-started-with-git)*, par Al Shaw, A List Apart #317, 2010. 
@@ -195,7 +247,7 @@ Quelques clients Git qui proposent une interface graphique, en alternative à la
 
 - [GitHub Desktop](https://desktop.github.com/), client Git (Mac et Windows) développé par GitHub.
 - [SourceTree](https://www.sourcetreeapp.com/), client Git (Mac et Windows) développé par Atlassian (société proposant le service BitBucket).
-- [GitKraken](https://www.gitkraken.com/), "Free for open source, education, non‑profit, startups* or personal use".
+- [GitKraken](https://www.gitkraken.com/), "Free for open source, education, non‑profit, startups or personal use".
 - [SmartGit](http://www.syntevo.com/smartgit/ ), "can be used free of charge by Open Source developers, teachers and their students, or for hobby, non-paid usage."
 
 Un utilitaire ligne de commande, pour utiliser des commandes en français:
