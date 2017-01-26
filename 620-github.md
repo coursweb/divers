@@ -80,7 +80,7 @@ Comment créer un site hébergé dans Github Pages:
 **Option "apex domain":**
 
 - Si le domaine est dépourvu de sous-domaine, comme **cours-web.ch** (un "apex domain"), la procédure est différente. Il faudra créer deux entrées de type A.
-- Renseignez "Cible" et entrez les adresses IP fournies par Github dans leur documentation, à savoir 192.30.252.153 et 192.30.252.154 (une pour chaque entrée A).
+- Renseignez "Cible" et entrez les adresses IP [fournies par GitHub dans leur documentation](https://help.github.com/articles/setting-up-an-apex-domain/), à savoir 192.30.252.153 et 192.30.252.154 (une pour chaque entrée A).
 - Vous pouvez laisser le champ TTL avec sa valeur par défaut.
 
 ![Ajout de zone A chez Infomaniak](/cours-divers/img/git-apex-infomaniak.png)
