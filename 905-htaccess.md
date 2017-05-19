@@ -33,9 +33,9 @@ Pour autoriser cela, vous devez ajouter un réglage HTACCESS au domaine qui héb
 
 ## Empêcher l'accès à des contenus
 
-Ce cas de figure se présente notamment pour l'utilisation de **webfonts** commerciales. Certaines fonderies - p.ex. [Lineto](https://lineto.com/), ou [Fatype](https://fatype.com/) - demandent de protéger les fontes par une restriction .htaccess.
+Ce cas de figure se présente notamment pour l'utilisation de **webfonts** commerciales. Certaines fonderies demandent de protéger les fontes par une restriction .htaccess.
 
-L'idée est de permettre le chargement uniquement depuis un nom de domaine précis: si la fonte est chargée via une feuille de style CSS depuis le domaine example.com, elle sera disponible. Toutes les autres demandes d'accès à la fonte seront refusées - il est donc impossible de télécharger les fichiers. 
+L'idée est de permettre le chargement uniquement depuis un nom de domaine spécifique: si la fonte est chargée via une feuille de style CSS depuis le domaine example.com, elle sera disponible. Toutes les autres demandes d'accès à la fonte seront refusées - il est donc impossible de télécharger les fichiers. 
 
 Voici un exemple de code .htaccess qui produit cet effet:
 
@@ -71,3 +71,41 @@ Voici un exemple de code .htaccess qui produit cet effet:
     
 </FilesMatch>
 ```
+
+Un autre cas de figure similaire vise la prévention du "hotlinking", càd l'accès direct aux images d'un site (p.ex. pour les insérer dans un forum de discussion).
+
+Voici un exemple qui retourne une erreur pour tout accès direct à un fichier image:
+
+```
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)example.com/.*$ [NC]
+RewriteRule \.(gif|jpg|jpeg|bmp|zip|rar|mp3|flv|swf|xml|php|png|css|pdf)$ - [F]
+```
+
+La 2ème ligne signifie qu'on autorise les "blank referrers", les accès qui ne fournissent aucune information de provenance. Ceci est le cas d'usagers se trouvant derrière un firewall.
+
+La 3ème ligne indique le domaine autorisé à accéder aux images.
+
+La troisième ligne empêche l'accès à une série de types de fichier.
+
+Et voici un exemple similaire, qui retourne une image prédéfinie (probablement avec un message explicatif ou ironique):
+
+```
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www\.)example.com/.*$ [NC]
+RewriteRule \.(gif|jpg)$ http://www.example.com/no-hotlinking.gif [R,L]
+```
+
+#### Les "rewrite rule flags
+
+Explication de quelques paramètres utilisées dans les règles d'écriture:
+
+- **[F] : forbidden** - la ressource est inaccessible, le serveur donnera un message "403 Forbidden".
+- **[L] : last** - Lorsque le drapeau [L] est présent, mod_rewrite arrête le traitement du jeu de règles.
+- **[NC] : nocase** - traitement insensible à la casse. Par exemple, .jpg aussi bien que .JPG seront acceptés. 
+
+Pour plus d'informations, voir :
+
+* [Documentation sur Apache.org](https://httpd.apache.org/docs/current/rewrite/flags.html)
