@@ -62,7 +62,7 @@ Voici un exemple de code .htaccess qui produit cet effet:
     # For everybody else, the referer must match the domains for which this
     # web-font is licensed.
     
-    RewriteCond %{HTTP_REFERER} !:\/\/([^.]+\.|)exemple.com
+    RewriteCond %{HTTP_REFERER} !:\/\/([^.]+\.|)example.com
     RewriteRule .* - [F]
 
     # Set Cache-Control header to must-revalidate, as we want clients to check
