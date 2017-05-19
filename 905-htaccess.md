@@ -42,20 +42,6 @@ Voici un exemple de code .htaccess qui produit cet effet:
 ```
 <FilesMatch "\.(eot|woff|svg|ttf)$">
     RewriteEngine On
-    RewriteCond %{HTTP:Origin} !^$|http(s)?://(www\.)?example\.com$ [NC]
-    RewriteRule \.(woff|eot)$ - [NC,L]
-    RewriteCond %{HTTP_REFERER} !. 
-    RewriteRule \.(woff|eot)$ - [F,NC,L]
-    Options -Indexes
-    Header set Cache-Control "must-revalidate"
-</FilesMatch>
-```
-
-Voici un autre exemple pour un effet similaire:
-
-```
-<FilesMatch "\.(eot|woff|svg|ttf)$">
-    RewriteEngine On
 
     # Let proxy servers with empty referer through
     
