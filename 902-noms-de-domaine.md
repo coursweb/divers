@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Divers
-permalink: /domaines/
+title: Noms de domaine
+permalink: /divers/domaines/
 ---
 
 TODO:
