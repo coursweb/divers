@@ -13,6 +13,7 @@ http://cours-web.ch/git/github-pages/
 
 Mais c'est un peu différent, il faudra éditer les **Serveurs DNS** du domaine, et entrer les infos pertinentes pour OVH.
 
+
 +1. Se connecter sur OVH
  +2. Aller dans "Ajouter une zone DNS"
  +3. Une page tutoriel s'ouvre : 
@@ -28,3 +29,5 @@ Mais c'est un peu différent, il faudra éditer les **Serveurs DNS** du domaine,
  +9. Écrire les noms DNS que vous trouvez dans OVH puis "Enregistrer"
  +
  +Voilà !
+
+
