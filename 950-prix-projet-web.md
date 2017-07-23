@@ -31,3 +31,9 @@ Daniel Mall: *Pricing Design*
 - Le livre: [http://abookapart.com/products/pricing-design](http://abookapart.com/products/pricing-design)
 - Son questionnaire pour client: 
 [https://gist.github.com/danielmall/87e4a93fa83f09e4ed18](https://gist.github.com/danielmall/87e4a93fa83f09e4ed18)
+
+Autres ressources:
+
+- [AIGA Standard Form Agreement for Design Services](http://www.aiga.org/standard-agreement)
+- [Rocket Lawyer Graphic Design Contract](https://www.rocketlawyer.com/document/graphic-design-contract.rl#/)
+- [The modern web design process: defining project scope](https://webflow.com/blog/the-modern-web-design-process-defining-project-scope) 
