@@ -41,17 +41,21 @@ Créer des archives locales
 
 Clients email: 
 
-Outlook, Apple Mail, Thunderbird, Postbox...
+* Outlook
+* Apple Mail
+* Thunderbird
+* Postbox...
 
 Services webmail majeurs:
 
-- Gmail
-- Yahoo
+- Outlook.com - service lancé en 1996 sous le nom Hotmail, 400 millions d'utilisateurs en 2015.
+- Gmail - service lancé par Google en 2004, 1 milliard d'utilisateurs en 2016.
+- Yahoo - service lancé en 1997, 225 millions d'utilisateurs en 2017.
 - [Zoho Mail](https://www.zoho.eu/mail/)
 
 ## Raccourcis clavier
 
-La logiciels de gestion de mail proposent des racourcis clavier pour faciliter les tâches fréquentes.
+La plupart des logiciels de gestion de mail proposent des racourcis clavier pour faciliter les tâches fréquentes: effacer, archiver, répondre...
 
 ## Méthodologie email
 
@@ -69,9 +73,10 @@ nouveaux outils: Slack
 
 Les newsletters
 
-Quelques services: MailChimp, Tinyletter, [Mailjet](https://www.mailjet.com/pricing_v3)...
+Quelques services: [MailChimp](https://mailchimp.com/), [Tinyletter](https://tinyletter.com/), [Mailjet](https://www.mailjet.com/pricing_v3)...
 
 Services d'envoi SMTP:
+
 SendGrid
 Amazon SES
 Mailgun
