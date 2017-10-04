@@ -87,6 +87,7 @@ Blocs de citation:
 
 * [Article Wikipédia](https://fr.wikipedia.org/wiki/Markdown)
 * [définition de la syntaxe MarkDown](https://daringfireball.net/projects/markdown/syntax) par John Gruber
+* [Un tutoriel sur OpenClassrooms](https://openclassrooms.com/courses/redigez-en-markdown)
 
 Editeurs de texte conçu pour le MarkDown: 
 
@@ -98,7 +99,7 @@ Un éditeur de text affichant d'un côté le code MarkDown, de l'autre le résul
 
 ![Edition MarkDown](/cours-divers/img/mou-editor.png)
 
-Mais vous avez aussi un très bon support dans ces éditeurs de code: 
+Vous avez aussi un très bon support dans ces éditeurs de code: 
 
 * *Atom*
 * *Visual Studio Code*
