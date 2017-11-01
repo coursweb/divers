@@ -10,7 +10,11 @@ TODO: Documentation qui couvre:
 
 Fonctionnement de base du courriel:
 
-Destinataires, champs TO, CC, CCI.
+Destinataires, champs: 
+
+* TO : destinataires principaux
+* Cc : copie carbone
+* Cci (ou Bcc): copie carbone invisible
 
 Courriel texte ou html.  
 Comment les clients traitent le html/css...
@@ -23,7 +27,9 @@ Taille des inbox: hotmail, yahoo, gmail, bluewin...
 
 ## Protocoles POP et IMAP
 
-IMAP est un standard web, défini dans le document [RFC 3501](https://tools.ietf.org/html/rfc3501) (2003).
+POP (Post Office Protocol) est un standard de communication spéficié dès 1984. Il a été rendu pratiquement obsolète par l'utilisation du standard IMAP.
+
+IMAP est un protocole nettement plus complexe. C'est un standard défini initialement dans le document [RFC 3501](https://tools.ietf.org/html/rfc3501) (2003).
 
 ### Les dossiers IMAP par défaut
 
@@ -46,6 +52,8 @@ Clients email:
 * Thunderbird
 * Postbox...
 
+Voir le chapitre [Outils : Mail, contacts, agenda](/outils/mail/).
+
 Services webmail majeurs:
 
 - Outlook.com - service lancé en 1996 sous le nom Hotmail, 400 millions d'utilisateurs en 2015.
@@ -53,9 +61,19 @@ Services webmail majeurs:
 - Yahoo - service lancé en 1997, 225 millions d'utilisateurs en 2017.
 - [Zoho Mail](https://www.zoho.eu/mail/)
 
+Si vous disposez d'un nom de domaine, et souhaitez mettre en place une adresse email fonctionnelle, un service intéressant est **Zoho Mail**. Il s'agit d'un hébergement mail, dont le [plan gratuit](https://www.zoho.eu/workplace/pricing.html?src=zmail) permet la mise en place de 25 adresses, disposant chacune d'un espace de 5 Gb. Cette page décrit la [procédure de mise en place](https://www.zoho.eu/mail/help/adminconsole/email-hosting-setup.html).
+
+Autres services d'hébergement email professionnels (payants):
+
+* [https://posteo.de/fr](https://posteo.de/fr)
+* [https://www.fastmail.com/pricing/](https://www.fastmail.com/pricing/)
+* [https://protonmail.com/](https://protonmail.com/)
+
 ## Raccourcis clavier
 
 La plupart des logiciels de gestion de mail proposent des racourcis clavier pour faciliter les tâches fréquentes: effacer, archiver, répondre...
+
+![Les raccourcis clavier de Gmail (dans l'application Spark)](/cours-divers/img/gmail-shortuts.png)
 
 ## Méthodologie email
 
@@ -63,23 +81,4 @@ Organisation, système de classement
 
 "Inbox zero"
 
-## Mailing-listes et newsletters
-
-Les Mailing-listes, listes de discussion
-
-outils classiques: Mailman, Sympa...   
-nouveaux outils: Lurk  
-nouveaux outils: Slack
-
-Les newsletters
-
-Quelques services: [MailChimp](https://mailchimp.com/), [Tinyletter](https://tinyletter.com/), [Mailjet](https://www.mailjet.com/pricing_v3)...
-
-Services d'envoi SMTP:
-
-SendGrid
-Amazon SES
-Mailgun
-Elastic Email
-
-***
+[The Email Charter](http://www.emailcharter.org/), "ten rules to reverse the email spiral", par Chris Anderson (fondateur de TED)
