@@ -13,7 +13,7 @@ Ce fichier, placé dans le dossier racine d'un site tournant sur un serveur Apac
 - Forcer des redirections.
 - Empêcher l'accès à certains contenus.
 
-Une bonne référence: le HTML5 Boilerplate donne de nombreux conseils d'optimisation de vitesse.
+Une bonne référence: le *HTML5 Boilerplate* donne de nombreux conseils d'optimisation de vitesse.
 
 [https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess)
 
@@ -98,9 +98,9 @@ RewriteCond %{HTTP_REFERER} !^http://(www\.)example.com/.*$ [NC]
 RewriteRule \.(gif|jpg)$ http://www.example.com/no-hotlinking.gif [R,L]
 ```
 
-#### Les "rewrite rule flags
+#### Les "rewrite rule flags"
 
-Explication de quelques paramètres utilisées dans les règles d'écriture:
+Explication de quelques paramètres utilisés dans les règles d'écriture:
 
 - **[F] : forbidden** - la ressource est inaccessible, le serveur donnera un message "403 Forbidden".
 - **[L] : last** - Lorsque le drapeau [L] est présent, mod_rewrite arrête le traitement du jeu de règles.
