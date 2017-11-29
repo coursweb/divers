@@ -88,6 +88,7 @@ Blocs de citation:
 * [Article Wikipédia](https://fr.wikipedia.org/wiki/Markdown)
 * [définition de la syntaxe MarkDown](https://daringfireball.net/projects/markdown/syntax) par John Gruber
 * [Un tutoriel sur OpenClassrooms](https://openclassrooms.com/courses/redigez-en-markdown)
+* [MarkDown Quick Reference](http://en.support.wordpress.com/markdown-quick-reference/) (anglais)
 
 Editeurs de texte conçu pour le MarkDown: 
 
