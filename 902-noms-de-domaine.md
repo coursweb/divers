@@ -80,4 +80,21 @@ Le domaine enregisté sur Infomaniak est ajouté sur OVH.
 
 Voilà !
 
+## Les services WHOIS
 
+Un service WHOIS est un engin de recherche permettant d'obtenir des informations sur un domaine existant.
+
+Cela indiquera en général:
+
+* Quand le domaine a été enregistré.
+* Au nom de qui.
+* L'adresse IP et son lieu géographique.
+* Les serveurs DNS (indiquant quel est l'hébergeur).
+
+Voici par exemple les résultats pour Facebook.com - on peut voir que le domaine à été enregistré le 28 mars 1997, que le registrar se nomme MarkMonitor, et que la compagnie Facebook gère ses propres serveurs DNS.
+
+![Résultats WHOIS pour facebook.com](/cours-divers/img/whois-facebook.png)
+
+Quelques services WHOIS:
+
+* [DomainTools](http://whois.domaintools.com/)
