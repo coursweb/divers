@@ -77,6 +77,20 @@ http://v3.danielmall.com/articles/visual-inventory/
 
 ## Le mouvement des "design systems"
 
+### Style Guides
+
+Exemples de Style Guides publiés par des entreprises:
+
+- [Primer CSS](http://primercss.io/), "the design system that powers GitHub"
+- 
+
+Un utilitaire pour générer des "style guides" CSS pour un site web:
+
+- [KSS (Knyle Style Sheets)](http://warpspire.com/kss/)
+
+Exemple de Style Guide produit avec KSS: [WordCamp Style Guide](https://lucijanblagonic.github.io/wceu-2017/styleguide/), guide des styles CSS pour le site de la conférence WordCamp Europe 2017.
+
+
 ### Pattern Library
 
 > I think it’s safe to say a Pattern Library isn’t necessary for every project. But if your site, application, or network of content suffers from style collisions, repeated code, and lack of cohesive UX then a Pattern Library is probably a helpful tool to have. – Dave Rupert, [What I Know About Pattern Libraries](https://daverupert.com/2017/06/what-i-know-about-pattern-libraries/)
