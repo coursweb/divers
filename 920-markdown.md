@@ -94,7 +94,7 @@ Editeurs de texte conçu pour le MarkDown:
 
 * *[ByWord](https://bywordapp.com/)*
 * *[iA Writer](https://ia.net/writer/)*
-* *[MacDown](https://macdown.uranusjr.com/)* ... 
+* *[MacDown](https://macdown.uranusjr.com/)* (gratuit et open-source)
 
 Un éditeur de text affichant d'un côté le code MarkDown, de l'autre le résultat produit:
 
