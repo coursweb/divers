@@ -12,7 +12,7 @@ Ce sont des outils visant à donner un espace de discussion, une communication e
 
 Outils classiques: Majordomo, Mailman, Sympa...   
 
-Nouveaux outils: [Lurk](http://lurk.org/), [Slack](https://slack.com)
+Nouveaux outils: [Lurk](http://lurk.org/), [Slack](https://slack.com), Google Groups
 
 ## Les newsletters
 
@@ -32,6 +32,19 @@ Ces services offrent des interfaces web pour composer visuellement une newslette
 
 Un produit un peu à part: [Sendy](https://sendy.co/). C'est une application hébergée sur votre serveur, permettant de gérer des newsletters. Les envois se font via le service Amazon SES (ci-dessous), plus économique que les autres systèmes.
 
+### Gérer la liste des abonnés dans MailChimp
+
+Format CSV : permet d'importer/exporter depuis diverses applications de gestion des contacts.
+
+### Composition d'une newsletter dans MailChimp
+
+Mailchimp vous propose la création d'une Campagne, et permet différents formats.
+
+ 
+### Insérer un formulaire d'inscription 
+
+Pour insérer un formulaire d'abonnement dans WordPress, il existe des extensions pour vous faciliter le travail. Par exemple [celle-ci](https://wordpress.org/plugins/mailchimp-for-wp/).
+
 ## Services d'envoi SMTP
 
 Ce sont des plate-formes d'expédition pour l'envoi d'emails en grande quantité:
@@ -49,7 +62,7 @@ Les différences de prix sont très variables d'un service à l'autre - la gamme
 
 [Litmus](http://litmus.com/email-testing) - outil de test pour vérifier le rendu d'une newsletter dans un grand nombre de clients email.
 
-## Délivrabilité
+## Délivrabilité
 
 Méthodes d'authentification permettant d'améliorer le taux de délivrabilité d'un domaine email:
 
@@ -57,6 +70,6 @@ Méthodes d'authentification permettant d'améliorer le taux de délivrabilité 
 - DKIM, un système de signature des messages.
 
 
-## Ressources
+## Ressources
 
 * [Email Design Guide](https://mailchimp.com/email-design-guide/), par Mailchimp
