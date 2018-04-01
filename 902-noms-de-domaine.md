@@ -9,18 +9,26 @@ Pour créer un site indépendant, vous devez disposer de deux choses:
 - Un nom de domaine.
 - Un hébergement.
 
+## Qu'est-ce qu'un nom de domaine
+
+Un nom de domaine est un « masque » sur une adresse IP. Le but d’un nom de domaine est de retenir et communiquer facilement l’adresse d’un ensemble de serveurs (site web, courrier électronique, FTP). Par exemple, facebook.com est plus simple à mémoriser que 208.80.154.224 ou 91.198.174.192.
+
+Un nom de domaine est composé de deux parties: 
+
+* Le nom, p.ex. : facebook
+* L’extension: .com/.fr/.ch etc
+
 ## Obtenir un nom de domaine
 
 Pour obtenir un nom de domaine, il faut passer par un "registrar", un service d'enregistrement. 
 
 Pour les domaines ".com", ".org", ".net", le prix est d’à peu près 10.- dollars/année. Pour les autres domaines - ".info", ".io", ".fm", ".tv"... - cela varie, il faut chercher.
 
-Il n'y a pas de différence "qualitative" entre un registrar et un autre.
+Quelques registrars réputés: 
 
-Autres registrars réputés: 
-
-* [Gandi.net](http://www.gandi.net/?lang=fr)
-* Namecheap.com
+* [infomaniak](https://www.infomaniak.com/fr/domaines) 
+* [Gandi](http://www.gandi.net/?lang=fr)
+* [Namecheap](https://www.namecheap.com/domains/registration.aspx)
 * 1and1.com
 * [GKG.net](https://www.gkg.net/)
 
