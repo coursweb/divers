@@ -9,6 +9,8 @@ Informations sur les favicons, et la manière de les intégrer dans une page web
 
 Une favicon (contraction de "favorite icon") est une icône graphique symbolisant un site web. Les navigateurs web peuvent utiliser la favicon dans la barre d'adresse, les signets, ou dans les raccourcis.
 
+![Un navigateur avec multiples onglets](/cours-divers/img/favicons-navigateur.png)
+
 La fonctionnalité a été introduite par le navigateur Internet Explorer, qui testait la présence d'un fichier `favicon.ico` à la racine du site. Sans avoir été standardisé, ce concept a été adopté par l'ensemble des navigateurs graphiques. 
 
 Le méthode la plus simple coniste à charger l'icône dans l'entête `<head>`, avec un code de ce type:
