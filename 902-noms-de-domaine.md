@@ -38,6 +38,8 @@ La procédure:
 - Procédez à l'achat, pour le nombre d'années que vous souhaitez.
 - Ne souscrivez pas à des services inutiles qu'on essayera peut-être de vous vendre.
 
+Sur les procédures complexes pour récupérer un nom de domaine expiré, lire [cet article de Brad Frost](http://bradfrost.com/blog/post/bradfrost-dot-com/).
+
 ## Obtenir un hébergement
 
 Contrairement au choix du registrar, le choix de l'hébergement est plus délicat, car la qualité varie d'un prestataire à l'autre, et un mauvais choix signifie:

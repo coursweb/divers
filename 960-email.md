@@ -81,4 +81,6 @@ Organisation, système de classement
 
 "Inbox zero"
 
-[The Email Charter](http://www.emailcharter.org/), "ten rules to reverse the email spiral", par Chris Anderson (fondateur de TED)
+- [The Email Charter](http://www.emailcharter.org/), "ten rules to reverse the email spiral", par Chris Anderson (fondateur de TED)
+- [My Life with Email](http://alistapart.com/column/my-life-with-email), par Matt Griffin
+- [email workflow](http://bradfrost.com/blog/post/email-workflow/), par Brad Frost
