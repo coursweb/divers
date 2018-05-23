@@ -10,7 +10,17 @@ La question de la performance concerne aussi le graphisme du site, car les image
 
 Lire à ce sujet l'article de Dan Mall: *[How To Make a Performance Budget](http://v3.danielmall.com/articles/how-to-make-a-performance-budget/)*.
 
-Quelques technologies récentes:
+## Outils et méthodes
+
+- [Request Map](http://requestmap.webperf.tools/)  - dessine une arborescence des requêtes à divers domaines, effectués lors du chargement d'une page. Permet de détecter l'importance des connexions des scripts d'analytics, réseaux sociaux, etc.
+- WebPageTest
+
+Articles:
+
+- *[Identifying, Auditing, and Discussing Third Parties](https://csswizardry.com/2018/05/identifying-auditing-discussing-third-parties/)*, CSS Wizardry. Décrit comment l'auteur analyse l'impact de "scripts tiers", à l'aide d'outils comme Request Map et WebPageTest... et comment il discute de l'utilité des scripts avec les équipes marketing.
+
+
+## Technologies récentes
 
 ### Facebook Instant Articles et AMP
 
