@@ -45,7 +45,7 @@ Fonctionnement de "Archiver".
 
 Créer des archives locales
 
-Clients email: 
+### Clients email 
 
 * Outlook
 * Apple Mail
@@ -54,20 +54,23 @@ Clients email:
 
 Voir le chapitre [Outils : Mail, contacts, agenda](/outils/mail/).
 
-Services webmail majeurs:
+### Services webmail
 
 - Outlook.com - service lancé en 1996 sous le nom Hotmail, 400 millions d'utilisateurs en 2015.
 - Gmail - service lancé par Google en 2004, 1 milliard d'utilisateurs en 2016.
 - Yahoo - service lancé en 1997, 225 millions d'utilisateurs en 2017.
+
+#### Hébergement email avec votre domaine
+
 - [Zoho Mail](https://www.zoho.eu/mail/)
 
 Si vous disposez d'un nom de domaine, et souhaitez mettre en place une adresse email fonctionnelle, un service intéressant est **Zoho Mail**. Il s'agit d'un hébergement mail, dont le [plan gratuit](https://www.zoho.eu/workplace/pricing.html?src=zmail) permet la mise en place de 25 adresses, disposant chacune d'un espace de 5 Gb. Cette page décrit la [procédure de mise en place](https://www.zoho.eu/mail/help/adminconsole/email-hosting-setup.html).
 
 Autres services d'hébergement email professionnels (payants):
 
-* [https://posteo.de/fr](https://posteo.de/fr)
-* [https://www.fastmail.com/pricing/](https://www.fastmail.com/pricing/)
-* [https://protonmail.com/](https://protonmail.com/)
+* [FastMail](https://www.fastmail.com/) - dès $50 / année
+* [ProtonMail](https://protonmail.com/) - dès 48 CHF / année
+* [Mailfence](https://mailfence.com/) - dès 30 EUR / année
 
 ## Raccourcis clavier
 
