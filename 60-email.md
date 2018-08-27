@@ -64,7 +64,7 @@ Voir le chapitre [Outils : Mail, contacts, agenda](/outils/mail/).
 
 - [Zoho Mail](https://www.zoho.eu/mail/)
 
-Si vous disposez d'un nom de domaine, et souhaitez mettre en place une adresse email fonctionnelle, un service intéressant est **Zoho Mail**. Il s'agit d'un hébergement mail, dont le [plan gratuit](https://www.zoho.eu/workplace/pricing.html?src=zmail) permet la mise en place de 25 adresses, disposant chacune d'un espace de 5 Gb. Cette page décrit la [procédure de mise en place](https://www.zoho.eu/mail/help/adminconsole/email-hosting-setup.html).
+Si vous disposez d'un nom de domaine, et souhaitez mettre en place une adresse email fonctionnelle, un service intéressant est **Zoho Mail**. Il s'agit d'un service d'hébergement mail dont le [plan gratuit](https://www.zoho.eu/workplace/pricing.html?src=zmail) permet la mise en place de 25 adresses, disposant chacune d'un espace de 5 Gb. Cette page décrit la [procédure de mise en place](https://www.zoho.eu/mail/help/adminconsole/email-hosting-setup.html).
 
 Autres services d'hébergement email professionnels (payants):
 
