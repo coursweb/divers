@@ -13,7 +13,7 @@ Une favicon (contraction de "favorite icon") est une icône graphique symbolisan
 
 La fonctionnalité a été introduite par le navigateur Internet Explorer, qui testait la présence d'un fichier `favicon.ico` à la racine du site. Sans avoir été standardisé, ce concept a été adopté par l'ensemble des navigateurs graphiques. 
 
-Le méthode la plus simple coniste à charger l'icône dans l'entête `<head>`, avec un code de ce type:
+Le méthode la plus simple coniste à charger l'icône dans l'en-tête `<head>`, avec un code de ce type:
 
 ```html
 <link rel="icon" type="image/png" href="favicon.png" />
@@ -25,7 +25,7 @@ Cette icône avait initialement une taille de 16 × 16 ou 32 × 32 pixels.
 
 L'arrivée d'appareils à écrans Retina – Apple iPhone suivi de Android – a conduit à des formats d'images plus grandes, pouvant être utilisées comme icônes dans ces applications, sur l'écran de démarrage d'un appareil.
 
-Voici un exemple de site servant différents formats (il s'agit du site du New York Times, en novembre 2017):
+Voici un exemple de site servant différents formats (il s'agit du site du *New York Times*, en novembre 2017):
 
 ```html
 <link rel="shortcut icon" href="https://static01.nyt.com/favicon.ico" />
@@ -34,9 +34,14 @@ Voici un exemple de site servant différents formats (il s'agit du site du New Y
 <link rel="apple-touch-icon-precomposed" href="https://static01.nyt.com/images/icons/ios-default-homescreen-57x57.png" />
 ```
 
-Nous avons donc un format ICO (48x48px), et des PNG de 57, 114 (format utilisé par le iPhone 4+) et 144 px (iPad 3+).
+Nous avons donc: 
 
-On peut aller encore plus loin, voici le code produit par le site favicon-generator.org :
+* un format ICO (48x48px).
+* un PNG de 57 px.
+* un PNG de 114 px (format utilisé par le iPhone 4+).
+* un PNG de 144 px (iPad 3+).
+
+On peut aller encore plus loin, voici le code produit par le site [favicon-generator.org](https://www.favicon-generator.org/) :
 
 ```html
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -62,12 +67,15 @@ On peut aller encore plus loin, voici le code produit par le site favicon-genera
 
 Voici [une longue discussion](https://github.com/h5bp/html5-boilerplate/issues/1367) sur le sujet des favicons, dans le projet HTML5Boilerplate.
 
-La méthode finalement proposée par le HTML5Boilerplate est relativement simple:
+La méthode finalement retenue par le HTML5Boilerplate est relativement simple:
 
 ```html
 <link rel="apple-touch-icon" href="icon.png">
 <!-- Place favicon.ico in the root directory -->
 ```
 
-La taille de la favicon.ico est de 32x32, la taille du icon.png (apple-touch-icon) est de 192x192 pixels.
+On propose donc deux formats:
+
+* Un fichier ICO (favicon.ico) de 32x32 px.
+* Un fichier PNG (apple-touch-icon) mesurant 192x192 pixels.
 
