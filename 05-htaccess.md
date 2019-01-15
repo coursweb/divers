@@ -23,6 +23,12 @@ Certains navigateurs vont refuser de charger une ressource qui est hébergée su
 
 Pourtant cela peut être nécessaire, par exemple dans le cas d'un blog Tumblr pour lequel vous aimeriez utiliser une webfont depuis votre propre domaine.
 
+Voilà le genre de message d'erreur pouvant apparaître dans la console de votre navigateur:
+
+```
+Access to font at 'https://example.com/aileron/italic.woff' from origin 'https://example.org' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+```
+
 Pour autoriser cela, vous devez ajouter un réglage HTACCESS au domaine qui héberge la fonte:
 
 ```
