@@ -8,7 +8,7 @@ permalink: /divers/ressources/
 
 ## OpenClassrooms
 
-**OpenClassrooms** est une école en ligne lancée en 2013. Le projet a son origine dans un cours cours de programmation en ligne créé en 1999 par Pierre Dubuc et Mathieu Nebra, alors âgés de 11 et 13 ans.
+**OpenClassrooms** est une école en ligne lancée en 2013. Le projet a son origine dans un cours de programmation en ligne créé en 1999 par Pierre Dubuc et Mathieu Nebra, alors âgés de 11 et 13 ans.
 
 Quelques cours intéressants:
 
@@ -17,7 +17,7 @@ Quelques cours intéressants:
 
 ## Khan Academy
 
-Khan Academy est une association à but non lucratif fondée en 2008 par Salman Khan. 
+**Khan Academy** est une association à but non lucratif fondée en 2008 par Salman Khan. 
 
 Quelques cours intéressants:
 
