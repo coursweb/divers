@@ -45,10 +45,21 @@ Voir [https://android.processing.org/](https://android.processing.org/) pour plu
 Pour se former au développement iOS avec Swift:
 
 - *[Développez votre première application pour iOS](https://openclassrooms.com/fr/courses/2582746-developpez-votre-premiere-application-pour-ios)*, une formation Open Classrooms (30h), par Charles Masson.
+- *[Programmation iOS](https://www.edx.org/course/programmation-ios-partie-i-upmcxsorbonnex-progios1x)*, par Fabrice Kordon (Université Pierre & Marie Curie).
+
 
 Pour se former dans les frameworks cross-platform: 
 
 - *[Développez une application mobile React Native](https://openclassrooms.com/fr/courses/4902061-developpez-une-application-mobile-react-native)*, une formation Open Classrooms (30 heures), par Maxime Charruel.
 - *[Développez une application mobile multiplateforme avec Ionic 3](https://openclassrooms.com/fr/courses/5098931-developpez-une-application-mobile-multiplateforme-avec-ionic-3)*, une formation Open Classrooms (20 heures), par Will Alexander.
 
+### Cours en anglais
 
+Sur Coursera: 
+ 
+- *[Full Stack Web and Multiplatform Mobile App Development](https://www.coursera.org/specializations/full-stack-mobile-app-development)*, cours utilisant **Angular** et **NativeScript**, par Jogesh K. Muppala (Hong Kong University of Science and Technology)
+- *[Full-Stack Web Development with React](https://www.coursera.org/specializations/full-stack-react)*, cours utilisant React Native, du même enseignant.
+
+Sur EDX.org:
+
+- *[Mobile App Development with React Native](https://www.edx.org/course/cs50s-mobile-app-development-with-react-native)*, par Harvard University
