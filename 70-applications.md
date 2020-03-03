@@ -14,18 +14,23 @@ Une application mobile peut être développée :
 
 Des outils "cross-platform" connus:
 
-- [NativeScript](https://www.nativescript.org/): pour développer avec Angular, Vue.js, TypeScript, ou JavaScript.
-- [React Native](https://facebook.github.io/react-native/): pour développer avec JavaScript et React. Existe depuis 2015, développé par Facebook.
-- [Adobe PhoneGap](https://phonegap.com/)
-- [Ionic](https://ionicframework.com/): pour développer avec JavaScript ou TypeScript. Existe depuis 2013.
-- [Flutter](https://flutter.dev/): une plateforme de Google, pour développer avec le langage Dart.
-- [Xamarin](https://dotnet.microsoft.com/apps/xamarin): une plateforme de Microsoft, pour développer avec les langages .NET et C# des applications pour les systèmes Android, iOS, tvOS, watchOS, macOS, et Windows.
+- **[NativeScript](https://www.nativescript.org/)**: pour développer avec **Angular**, **Vue.js**, **TypeScript**, ou JavaScript. Comporte une bibliothèque d'éléments d'interface, [NativeScript UI](https://www.nativescript.org/ui-for-nativescript). [Voir des exemples](https://www.nativescript.org/showcases).
+- **[React Native](https://facebook.github.io/react-native/)**: pour développer avec JavaScript et **React**. Existe depuis 2015, développé par Facebook. Il existe des "UI kits", comme [UI Kitten](https://akveo.github.io/react-native-ui-kitten/). 
+- **[Ionic](https://ionicframework.com/)**: pour développer avec JavaScript ou **TypeScript**. Existe depuis 2013.
+- **[Flutter](https://flutter.dev/)**: une plateforme de Google, pour développer avec le langage Dart.
+- **[Xamarin](https://dotnet.microsoft.com/apps/xamarin)**: une plateforme de Microsoft, pour développer avec les langages .NET et C# des applications pour les systèmes Android, iOS, tvOS, watchOS, macOS, et Windows.
+- **[Adobe PhoneGap](https://phonegap.com/)**: existe depuis 2008.
 
-Quelques exemples d'applications mobiles développées avec React Native:
-- Facebook
+Quelques exemples d'applications mobiles utilisant (partiellement) **React Native**:
+- [Facebook](https://engineering.fb.com/android/dive-into-react-native-performance/) (les applications iOS et Android)
 - Skype
-- Instagram
-- Uber Eats
+- [Instagram](https://instagram-engineering.com/react-native-at-instagram-dd828a9a90c7#.3h4wir4zr)
+- [Pinterest](https://medium.com/pinterest-engineering/supporting-react-native-at-pinterest-f8c2233f90e6)
+- [UberEATS](https://eng.uber.com/ubereats-react-native/)
+
+Voir [cette page](https://reactnative.dev/showcase) pour plus d'exemples et références.
+
+![Fonctionnement de NativeScript](/cours-divers/img/nativescript-fonctionnement.png)
 
 ## Conversion d'un site WordPress en application
 
