@@ -25,9 +25,10 @@ Héberger des applications dans des langages autres que PHP / MySQL:
 
 ## Hébergement "Cloud Computing"
 
- Services d'hébergement offrant des machines virtuelles:
+ Services d'hébergement avec des offres allant au-delà du "classique".
 
-- **[Heroku](https://www.heroku.com/)** - créé à l'origine pour héberger des application écrites dans la langage Ruby, cette plateforme propose également les langages Node.js, Java, PHP, Python, Scala, Clojure, et Go. Offre un plan gratuit pour expérimenter.
+- **[Netlify](https://www.netlify.com/)**. Actif depuis 2014. Propose des services d'hébergement et de déploiement. Prévu pour déployer depuis Git, et produire des sites via des générateurs statiques, comme: Next.js, Hugo, Gatsby... Très utilisé dans l'écosystème Javascript.
+- **[Heroku](https://www.heroku.com/)**. Créé à l'origine pour héberger des application écrites dans la langage Ruby, cette plateforme propose également les langages Node.js, Java, PHP, Python, Scala, Clojure, et Go. Offre un plan gratuit pour expérimenter.
 - **[DigitalOcean](https://www.digitalocean.com/)**. Actif depuis 2011. Propose des machines virtuelles Linux. Les prix démarrent à $5/mois.
 - **[Linode](https://www.linode.com/)**. Actif depuis 2003. Propose des machines virtuelles Linux. Les prix démarrent à $5/mois.
 - **[Bitnami](https://bitnami.com/)**. Propose l'installation et la gestion simplifiée de "paquets", càd diverses applications open-source. Utilise les services Cloud de Google, Amazon, Oracle ou Microsoft.

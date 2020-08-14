@@ -90,6 +90,8 @@ Editeurs de texte conçu pour le MarkDown:
 * *[ByWord](https://bywordapp.com/)*
 * *[iA Writer](https://ia.net/writer/)*
 * *[MacDown](https://macdown.uranusjr.com/)* (gratuit et open-source)
+* [Typora](https://typora.io/)
+* [Mark Text](https://marktext.app/)
 
 Un éditeur de text affichant d'un côté le code MarkDown, de l'autre le résultat produit:
 
@@ -99,7 +101,6 @@ Vous avez aussi un très bon support dans ces éditeurs de code:
 
 * *Atom*
 * *Visual Studio Code*
-
 
 * [Article Wikipédia](https://fr.wikipedia.org/wiki/Markdown)
 * [définition de la syntaxe MarkDown](https://daringfireball.net/projects/markdown/syntax) par John Gruber
