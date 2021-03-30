@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Performance
-permalink: /divers/performance/
+permalink: /performance/
 ---
 
 Par "performance", on entend la rapidité de chargement et la réactivité d'un site. C'est un sujet passionnant et vaste, car d'innombrables facteurs entrent en jeu, autant au niveau du code frontend (chargement asynchrone), de la préparation des ressources (images, logos, fontes), du code serveur (systèmes de cache, optimisations diverses).

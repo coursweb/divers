@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Ressources
-permalink: /divers/ressources/
+permalink: /ressources.html
 ---
 
 # Ressources d'apprentissage
