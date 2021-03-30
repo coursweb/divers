@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Noms de domaine
-permalink: /divers/domaines/
+permalink: /domaines.html
 ---
 
 Pour créer un site indépendant, vous devez disposer de deux choses:
