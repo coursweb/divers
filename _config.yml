@@ -2,3 +2,18 @@ remote_theme: coursweb/jk-theme
 title: Divers
 description: Sous-module pour cours-web.ch, couvrant des sujets variés.
 lang: fr-FR
+chapters:
+ - title: Cours-web
+   url: https://cours-web.ch/
+ - title: HTML
+   url: https://cours-web.ch/html/
+ - title: CSS
+   url: https://cours-web.ch/html/
+ - title: JavaScript
+   url: https://cours-web.ch/javascript/
+ - title: WordPress
+   url: https://cours-web.ch/wp/
+ - title: Serveurs
+   url: https://cours-web.ch/serveurs/
+ - title: Divers
+   url: https://cours-web.ch/divers/
