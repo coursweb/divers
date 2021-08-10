@@ -1,7 +1,7 @@
 ---
 layout: page
 title: La syntaxe MarkDown
-permalink: /markdown.html
+permalink: markdown.html
 ---
 
 MarkDown est un petit projet lancé en 2004 par le bloggeur [John Gruber](https://fr.wikipedia.org/wiki/John_Gruber). C'est une syntaxe minimale permettant d'écrire du texte pour le web, puis de le convertir en HTML.

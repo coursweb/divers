@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Développement d'apps
-permalink: /divers/developpement-apps/
 ---
 
 Voici quelques informations sur les applications mobiles. Bien que différent du développement web, les applications mobiles peuvent partager certaines technologies, et même utiliser les langages conçus à l'origine pour le web.
@@ -30,7 +29,7 @@ Quelques exemples d'applications mobiles utilisant (partiellement) **React Nativ
 
 Voir [cette page](https://reactnative.dev/showcase) pour plus d'exemples et références.
 
-![Fonctionnement de NativeScript](/cours-divers/img/nativescript-fonctionnement.png)
+![Fonctionnement de NativeScript](img/nativescript-fonctionnement.png)
 
 ## Conversion d'un site WordPress en application
 

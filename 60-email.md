@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Email
-permalink: /divers/email/
+permalink: email.html
 ---
 
 # Utiliser l'email
@@ -85,7 +85,7 @@ Quelques autres services d'hébergement email professionnels (payants):
 
 La plupart des logiciels de gestion de mail proposent des racourcis clavier pour faciliter les tâches fréquentes: effacer, archiver, répondre...
 
-![Les raccourcis clavier de Gmail (dans l'application Spark)](/cours-divers/img/gmail-shortuts.png)
+![Les raccourcis clavier de Gmail (dans l'application Spark)](img/gmail-shortuts.png)
 
 ## Méthodologie email
 

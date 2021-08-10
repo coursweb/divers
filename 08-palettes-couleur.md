@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Couleur
-permalink: /divers/couleur/
+permalink: couleur.html
 ---
 
 Ce chapitre rassemblera des informations sur la couleur: palettes, accessibilité...

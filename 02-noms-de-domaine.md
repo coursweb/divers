@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Noms de domaine
-permalink: /domaines.html
+permalink: domaines.html
 ---
 
 Pour créer un site indépendant, vous devez disposer de deux choses:
@@ -103,7 +103,7 @@ Cela indiquera en général:
 
 Voici par exemple les résultats pour Facebook.com - on peut voir que le domaine à été enregistré le 28 mars 1997, que le registrar se nomme MarkMonitor, et que la compagnie Facebook gère ses propres serveurs DNS.
 
-![Résultats WHOIS pour facebook.com](/cours-divers/img/whois-facebook.png)
+![Résultats WHOIS pour facebook.com](img/whois-facebook.png)
 
 Quelques services WHOIS:
 
