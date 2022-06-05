@@ -52,7 +52,7 @@ Créer des archives locales
 * Thunderbird
 * Postbox...
 
-Voir le chapitre [Outils : Mail, contacts, agenda](/outils/mail/).
+Voir le chapitre [Outils : Mail, contacts, agenda](https://cours-web.ch/outils/mail.html).
 
 ### Services webmail
 
@@ -64,8 +64,8 @@ Voir le chapitre [Outils : Mail, contacts, agenda](/outils/mail/).
 
 Ces services sont utiles pour migrer une boîte email de grande taille d'un hébergeur vers un autre. 
 
-* Audriga e-mail migration service: [https://www.migrate-mail.com/](https://www.migrate-mail.com/)
-* YippieMove: [https://www.yippiemove.com/](https://www.yippiemove.com/)
+* Audriga e-mail migration service: [https://www.audriga.com/en/Email_migration](https://www.audriga.com/en/Email_migration)
+* YippieMove: a cessé ses services en 2019.
 
 #### Hébergement email avec votre domaine
 
