@@ -16,8 +16,8 @@ Lire à ce sujet l'article de Dan Mall: *[How To Make a Performance Budget](http
 - [WebPageTest](https://www.webpagetest.org/)
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse) - outil intégré dans les DevTools de Chrome.
 - [Pagespeed Insights](https://developers.google.com/speed/pagespeed/insights/) - outil d'analyse de Google, donne un score à votre site et détecte des améliorations possibles. 
-- pingdom
-- gtmatrix
+- [Pingdom](https://tools.pingdom.com/) (Website Speed Test)
+- [GTmatrix](https://gtmetrix.com/)
 
 Articles:
 
