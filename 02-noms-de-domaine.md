@@ -22,7 +22,7 @@ Un nom de domaine est composé de deux parties:
 
 Pour obtenir un nom de domaine, il faut passer par un "registrar", un service d'enregistrement. 
 
-Pour les domaines ".com", ".org", ".net", le prix est d’à peu près 10.- dollars/année. Pour les autres domaines - ".info", ".io", ".fm", ".tv"... - cela varie, il faut chercher.
+Pour les domaines ".com", ".org", ".net", le prix est d’à peu près 10.- dollars/année. Pour les autres domaines - ".info", ".io", ".fm", ".tv"... - cela varie, il faut chercher. Voir une [liste de prix](https://docs.google.com/spreadsheets/d/1orzB_c24-kh9nZUnYcOhmcXi8IcHGHipT5l6WAwKfLM/edit?usp=sharing) (selon Infomaniak en 2020-21).
 
 Quelques registrars réputés: 
 
@@ -37,8 +37,6 @@ La procédure:
 - Vérifiez si le nom de domaine est disponible.
 - Procédez à l'achat, pour le nombre d'années que vous souhaitez.
 - Ne souscrivez pas à des services inutiles qu'on essayera peut-être de vous vendre.
-
-Une liste d'extensions avec leurs prix, 
 
 Sur les procédures complexes pour récupérer un nom de domaine expiré, lire [cet article de Brad Frost](http://bradfrost.com/blog/post/bradfrost-dot-com/).
 
